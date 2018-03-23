@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GrammarsViewController" customModule="RxSwiftDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oLW-EP-LOO">
+                    <rect key="frame" x="16" y="40" width="343" height="547"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFp-pk-hBy">
+                            <rect key="frame" x="20" y="151" width="105" height="30"/>
+                            <state key="normal" title="deferred() 方法"/>
+                            <connections>
+                                <action selector="deferredTestAction:" destination="-1" eventType="touchUpInside" id="xDt-cL-o2z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLz-TD-sPr">
+                            <rect key="frame" x="20" y="291" width="81" height="30"/>
+                            <state key="normal" title="timer() 方法"/>
+                            <connections>
+                                <action selector="timerTestAction:" destination="-1" eventType="touchUpInside" id="uTS-Wr-n8K"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1y-eZ-CZb">
+                            <rect key="frame" x="20" y="221" width="96" height="30"/>
+                            <state key="normal" title="interval() 方法"/>
+                            <connections>
+                                <action selector="intervalTestAction:" destination="-1" eventType="touchUpInside" id="CbW-A7-Wev"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEB-Bt-QCP">
+                            <rect key="frame" x="20" y="81" width="89" height="30"/>
+                            <state key="normal" title="create() 方法"/>
+                            <connections>
+                                <action selector="createTestAction:" destination="-1" eventType="touchUpInside" id="rZS-BQ-m99"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Observable 介绍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wua-xs-NCP">
+                            <rect key="frame" x="20" y="20" width="127" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订阅 Observable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxS-wi-2z0">
+                            <rect key="frame" x="196" y="20" width="127" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fo-Eo-ehu">
+                            <rect key="frame" x="214" y="81" width="109" height="30"/>
+                            <state key="normal" title="subscribe()订阅"/>
+                            <connections>
+                                <action selector="subscribeTestAction:" destination="-1" eventType="touchUpInside" id="rO0-Jm-KPT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LfA-K4-Utu">
+                            <rect key="frame" x="214" y="151" width="109" height="30"/>
+                            <state key="normal" title="subscribe()分类"/>
+                            <connections>
+                                <action selector="subscribe02TestAction:" destination="-1" eventType="touchUpInside" id="dsJ-cH-8Lb"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="监听事件生命周期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKu-qr-ZFz">
+                            <rect key="frame" x="184" y="221" width="139" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fe5-vq-SGg">
+                            <rect key="frame" x="243" y="282" width="80" height="30"/>
+                            <state key="normal" title="doOn()示例"/>
+                            <connections>
+                                <action selector="doOnTestAction:" destination="-1" eventType="touchUpInside" id="kJj-4d-gww"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="销毁 Dispose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo6-UU-I3n">
+                            <rect key="frame" x="20" y="361" width="101" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AR7-Un-fov">
+                            <rect key="frame" x="20" y="422" width="100" height="30"/>
+                            <state key="normal" title="dispose() 方法"/>
+                            <connections>
+                                <action selector="disposeTestAction:" destination="-1" eventType="touchUpInside" id="G21-x0-tOi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1X8-px-vZ3">
+                            <rect key="frame" x="20" y="492" width="117" height="30"/>
+                            <state key="normal" title="DisposeBag 管理"/>
+                            <connections>
+                                <action selector="disposeBagTestAction:" destination="-1" eventType="touchUpInside" id="B44-uT-hdG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="eFp-pk-hBy" firstAttribute="leading" secondItem="wua-xs-NCP" secondAttribute="leading" id="1ys-bk-kqc"/>
+                        <constraint firstAttribute="trailing" secondItem="hxS-wi-2z0" secondAttribute="trailing" constant="20" id="4t9-D5-LsT"/>
+                        <constraint firstItem="vLz-TD-sPr" firstAttribute="leading" secondItem="wua-xs-NCP" secondAttribute="leading" id="62v-5o-JR9"/>
+                        <constraint firstItem="Yo6-UU-I3n" firstAttribute="top" secondItem="vLz-TD-sPr" secondAttribute="bottom" constant="40" id="BF9-Ot-L3z"/>
+                        <constraint firstAttribute="bottom" secondItem="1X8-px-vZ3" secondAttribute="bottom" constant="25" id="BUh-gf-FHF"/>
+                        <constraint firstItem="V1y-eZ-CZb" firstAttribute="top" secondItem="eFp-pk-hBy" secondAttribute="bottom" constant="40" id="DaY-CS-z0w"/>
+                        <constraint firstItem="4fo-Eo-ehu" firstAttribute="top" secondItem="hxS-wi-2z0" secondAttribute="bottom" constant="40" id="Dij-8a-olb"/>
+                        <constraint firstItem="wua-xs-NCP" firstAttribute="top" secondItem="oLW-EP-LOO" secondAttribute="top" constant="20" id="Fcq-Ip-v0h"/>
+                        <constraint firstItem="4fo-Eo-ehu" firstAttribute="trailing" secondItem="hxS-wi-2z0" secondAttribute="trailing" id="HAA-2Q-NDv"/>
+                        <constraint firstItem="wua-xs-NCP" firstAttribute="leading" secondItem="oLW-EP-LOO" secondAttribute="leading" constant="20" id="HJC-O4-lH0"/>
+                        <constraint firstItem="UKu-qr-ZFz" firstAttribute="top" secondItem="LfA-K4-Utu" secondAttribute="bottom" constant="40" id="J5f-22-pwh"/>
+                        <constraint firstItem="UKu-qr-ZFz" firstAttribute="trailing" secondItem="hxS-wi-2z0" secondAttribute="trailing" id="Lml-PT-A6y"/>
+                        <constraint firstItem="V1y-eZ-CZb" firstAttribute="leading" secondItem="wua-xs-NCP" secondAttribute="leading" id="PHB-C9-Lhk"/>
+                        <constraint firstItem="fe5-vq-SGg" firstAttribute="trailing" secondItem="hxS-wi-2z0" secondAttribute="trailing" id="RS2-JP-p3h"/>
+                        <constraint firstItem="1X8-px-vZ3" firstAttribute="leading" secondItem="vLz-TD-sPr" secondAttribute="leading" id="Uq7-4C-Duj"/>
+                        <constraint firstItem="hxS-wi-2z0" firstAttribute="top" secondItem="oLW-EP-LOO" secondAttribute="top" constant="20" id="VwB-AK-mpu"/>
+                        <constraint firstItem="eFp-pk-hBy" firstAttribute="top" secondItem="lEB-Bt-QCP" secondAttribute="bottom" constant="40" id="W29-7l-swa"/>
+                        <constraint firstItem="AR7-Un-fov" firstAttribute="leading" secondItem="vLz-TD-sPr" secondAttribute="leading" id="XOh-y2-z3T"/>
+                        <constraint firstItem="1X8-px-vZ3" firstAttribute="top" secondItem="AR7-Un-fov" secondAttribute="bottom" constant="40" id="Xrd-vs-2uQ"/>
+                        <constraint firstItem="LfA-K4-Utu" firstAttribute="top" secondItem="4fo-Eo-ehu" secondAttribute="bottom" constant="40" id="XzQ-7e-C7v"/>
+                        <constraint firstItem="AR7-Un-fov" firstAttribute="top" secondItem="Yo6-UU-I3n" secondAttribute="bottom" constant="40" id="cy5-WQ-Iuu"/>
+                        <constraint firstItem="lEB-Bt-QCP" firstAttribute="leading" secondItem="wua-xs-NCP" secondAttribute="leading" id="hrd-E3-Fiz"/>
+                        <constraint firstItem="Yo6-UU-I3n" firstAttribute="leading" secondItem="vLz-TD-sPr" secondAttribute="leading" id="keZ-sf-v2E"/>
+                        <constraint firstItem="lEB-Bt-QCP" firstAttribute="top" secondItem="wua-xs-NCP" secondAttribute="bottom" constant="40" id="pee-3s-CD4"/>
+                        <constraint firstItem="vLz-TD-sPr" firstAttribute="top" secondItem="V1y-eZ-CZb" secondAttribute="bottom" constant="40" id="uID-vo-qZn"/>
+                        <constraint firstItem="fe5-vq-SGg" firstAttribute="top" secondItem="UKu-qr-ZFz" secondAttribute="bottom" constant="40" id="ux5-BN-PBw"/>
+                        <constraint firstItem="LfA-K4-Utu" firstAttribute="trailing" secondItem="hxS-wi-2z0" secondAttribute="trailing" id="yJu-4V-4px"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oLW-EP-LOO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="9T2-lm-SsU"/>
+                <constraint firstItem="oLW-EP-LOO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="IPO-A9-HrM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oLW-EP-LOO" secondAttribute="trailing" constant="16" id="fhr-ot-puC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="81.5"/>
+        </view>
+    </objects>
+</document>

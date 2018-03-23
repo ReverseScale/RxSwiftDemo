@@ -13,6 +13,10 @@
 		343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343D89112064985400F96807 /* LaunchScreen.storyboard */; };
 		343D891E2064985500F96807 /* RxSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D891D2064985500F96807 /* RxSwiftDemoTests.swift */; };
 		343D89292064985500F96807 /* RxSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D89282064985500F96807 /* RxSwiftDemoUITests.swift */; };
+		348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CADA72064C3C000C1B674 /* GrammarsViewController.swift */; };
+		348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348CADA82064C3C000C1B674 /* GrammarsViewController.xib */; };
+		348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */; };
+		348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348CADAC2064D14E00C1B674 /* AddIndexViewController.xib */; };
 		34D4235720649BC900408E6B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235620649BC900408E6B /* Music.swift */; };
 		34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235C20649D0600408E6B /* PastTableViewController.swift */; };
 		34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D4235D20649D0600408E6B /* PastTableViewController.xib */; };
@@ -58,6 +62,10 @@
 		343D89242064985500F96807 /* RxSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D89282064985500F96807 /* RxSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		343D892A2064985500F96807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348CADA72064C3C000C1B674 /* GrammarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarsViewController.swift; sourceTree = "<group>"; };
+		348CADA82064C3C000C1B674 /* GrammarsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrammarsViewController.xib; sourceTree = "<group>"; };
+		348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIndexViewController.swift; sourceTree = "<group>"; };
+		348CADAC2064D14E00C1B674 /* AddIndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddIndexViewController.xib; sourceTree = "<group>"; };
 		34D4235620649BC900408E6B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		34D4235C20649D0600408E6B /* PastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTableViewController.swift; sourceTree = "<group>"; };
 		34D4235D20649D0600408E6B /* PastTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastTableViewController.xib; sourceTree = "<group>"; };
@@ -143,6 +151,7 @@
 				343D89082064985400F96807 /* AppDelegate.swift */,
 				34D4236A2064A3AD00408E6B /* RootTable */,
 				34D4236B2064A89D00408E6B /* MusicList */,
+				348CADA62064B09B00C1B674 /* BasicGrammar */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -167,6 +176,17 @@
 				343D892A2064985500F96807 /* Info.plist */,
 			);
 			path = RxSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		348CADA62064B09B00C1B674 /* BasicGrammar */ = {
+			isa = PBXGroup;
+			children = (
+				348CADA72064C3C000C1B674 /* GrammarsViewController.swift */,
+				348CADA82064C3C000C1B674 /* GrammarsViewController.xib */,
+				348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */,
+				348CADAC2064D14E00C1B674 /* AddIndexViewController.xib */,
+			);
+			path = BasicGrammar;
 			sourceTree = "<group>";
 		};
 		34D4236A2064A3AD00408E6B /* RootTable */ = {
@@ -338,9 +358,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */,
+				348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */,
 				34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */,
 				343D89102064985400F96807 /* Assets.xcassets in Resources */,
 				343D890E2064985400F96807 /* Main.storyboard in Resources */,
+				348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,7 +550,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */,
+				348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */,
 				34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */,
+				348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */,
 				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
 				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
