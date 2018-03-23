@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		343D89092064985400F96807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D89082064985400F96807 /* AppDelegate.swift */; };
-		343D890B2064985400F96807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D890A2064985400F96807 /* ViewController.swift */; };
 		343D890E2064985400F96807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343D890C2064985400F96807 /* Main.storyboard */; };
 		343D89102064985400F96807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343D890F2064985400F96807 /* Assets.xcassets */; };
 		343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343D89112064985400F96807 /* LaunchScreen.storyboard */; };
 		343D891E2064985500F96807 /* RxSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D891D2064985500F96807 /* RxSwiftDemoTests.swift */; };
 		343D89292064985500F96807 /* RxSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D89282064985500F96807 /* RxSwiftDemoUITests.swift */; };
+		34D4235720649BC900408E6B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235620649BC900408E6B /* Music.swift */; };
+		34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235C20649D0600408E6B /* PastTableViewController.swift */; };
+		34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D4235D20649D0600408E6B /* PastTableViewController.xib */; };
+		34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4236020649D3400408E6B /* MusicListViewModel.swift */; };
+		34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4236220649EA600408E6B /* RootTableViewController.swift */; };
+		34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D423642064A11500408E6B /* IntroductionModuleTableCell.swift */; };
+		34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4236E2064A90E00408E6B /* RxMusicListViewModel.swift */; };
+		34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D423702064A96900408E6B /* FutureTableViewController.swift */; };
+		34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D423712064A96900408E6B /* FutureTableViewController.xib */; };
 		7A6ACAF210EB6B0297515B55 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B80CFE547400AEA505736 /* Pods_RxSwiftDemo.framework */; };
 		840A99DD864F7238BB455720 /* Pods_RxSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B32DEEC4FB45025BE32894 /* Pods_RxSwiftDemoUITests.framework */; };
 		8DE3A081B353040DE17885CA /* Pods_RxSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7F636CA5E26B7B8CA98BE /* Pods_RxSwiftDemoTests.framework */; };
@@ -40,7 +48,6 @@
 		23B7F636CA5E26B7B8CA98BE /* Pods_RxSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D89052064985400F96807 /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D89082064985400F96807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		343D890A2064985400F96807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		343D890D2064985400F96807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		343D890F2064985400F96807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343D89122064985400F96807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		343D89242064985500F96807 /* RxSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D89282064985500F96807 /* RxSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		343D892A2064985500F96807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D4235620649BC900408E6B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		34D4235C20649D0600408E6B /* PastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTableViewController.swift; sourceTree = "<group>"; };
+		34D4235D20649D0600408E6B /* PastTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastTableViewController.xib; sourceTree = "<group>"; };
+		34D4236020649D3400408E6B /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
+		34D4236220649EA600408E6B /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		34D423642064A11500408E6B /* IntroductionModuleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionModuleTableCell.swift; sourceTree = "<group>"; };
+		34D4236E2064A90E00408E6B /* RxMusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMusicListViewModel.swift; sourceTree = "<group>"; };
+		34D423702064A96900408E6B /* FutureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureTableViewController.swift; sourceTree = "<group>"; };
+		34D423712064A96900408E6B /* FutureTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureTableViewController.xib; sourceTree = "<group>"; };
 		458B80CFE547400AEA505736 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F870BD27DA32A4E3935F28 /* Pods-RxSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemoTests/Pods-RxSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6488973930887E4578E29423 /* Pods-RxSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemoUITests/Pods-RxSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				343D89082064985400F96807 /* AppDelegate.swift */,
-				343D890A2064985400F96807 /* ViewController.swift */,
+				34D4236A2064A3AD00408E6B /* RootTable */,
+				34D4236B2064A89D00408E6B /* MusicList */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -150,6 +167,45 @@
 				343D892A2064985500F96807 /* Info.plist */,
 			);
 			path = RxSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		34D4236A2064A3AD00408E6B /* RootTable */ = {
+			isa = PBXGroup;
+			children = (
+				34D4236220649EA600408E6B /* RootTableViewController.swift */,
+				34D423642064A11500408E6B /* IntroductionModuleTableCell.swift */,
+			);
+			path = RootTable;
+			sourceTree = "<group>";
+		};
+		34D4236B2064A89D00408E6B /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				34D4235620649BC900408E6B /* Music.swift */,
+				34D4236C2064A8CF00408E6B /* Past */,
+				34D4236D2064A8E500408E6B /* Future */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		34D4236C2064A8CF00408E6B /* Past */ = {
+			isa = PBXGroup;
+			children = (
+				34D4236020649D3400408E6B /* MusicListViewModel.swift */,
+				34D4235C20649D0600408E6B /* PastTableViewController.swift */,
+				34D4235D20649D0600408E6B /* PastTableViewController.xib */,
+			);
+			path = Past;
+			sourceTree = "<group>";
+		};
+		34D4236D2064A8E500408E6B /* Future */ = {
+			isa = PBXGroup;
+			children = (
+				34D4236E2064A90E00408E6B /* RxMusicListViewModel.swift */,
+				34D423702064A96900408E6B /* FutureTableViewController.swift */,
+				34D423712064A96900408E6B /* FutureTableViewController.xib */,
+			);
+			path = Future;
 			sourceTree = "<group>";
 		};
 		D55575FAD976AFE7096DFA48 /* Pods */ = {
@@ -282,8 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */,
+				34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */,
 				343D89102064985400F96807 /* Assets.xcassets in Resources */,
 				343D890E2064985400F96807 /* Main.storyboard in Resources */,
+				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,11 +371,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -467,8 +527,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343D890B2064985400F96807 /* ViewController.swift in Sources */,
+				34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */,
+				34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */,
+				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
+				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
+				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
+				34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */,
 				343D89092064985400F96807 /* AppDelegate.swift in Sources */,
+				34D4235720649BC900408E6B /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
