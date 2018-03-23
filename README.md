@@ -13,14 +13,13 @@ import RxSwift
 import RxCocoa
 ```
 
-### Observable 介绍
+### 一、Observable 介绍
 
 #### Observable<T>
 * Observable<T> 这个类就是 Rx 框架的基础，我们可以称它为可观察序列。它的作用就是可以异步地产生一系列的 Event（事件），即一个 Observable<T> 对象会随着时间推移不定期地发出 event(element : T) 这样一个东西。
 * 而且这些 Event 还可以携带数据，它的泛型 <T> 就是用来指定这个 Event 携带的数据的类型。
 * 有了可观察序列，我们还需要有一个 Observer（订阅者）来订阅它，这样这个订阅者才能收到 Observable<T> 不时发出的 Event。
   
-  
 #### Event
 查看 RxSwift 源码可以发现，事件 Event 的定义如下：
 ```Swift
@@ -242,3 +241,5 @@ observable.subscribe { event in
 }
 ```
 
+## 未完待续
+更多见 Demo :)
