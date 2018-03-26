@@ -13,6 +13,10 @@
 		343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343D89112064985400F96807 /* LaunchScreen.storyboard */; };
 		343D891E2064985500F96807 /* RxSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D891D2064985500F96807 /* RxSwiftDemoTests.swift */; };
 		343D89292064985500F96807 /* RxSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D89282064985500F96807 /* RxSwiftDemoUITests.swift */; };
+		34435F0C20689B0400321F75 /* BingAttributesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34435F0A20689B0400321F75 /* BingAttributesViewController.swift */; };
+		34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34435F0B20689B0400321F75 /* BingAttributesViewController.xib */; };
+		34637D8A20689F98002AA54C /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34637D8820689F98002AA54C /* SubjectsViewController.swift */; };
+		34637D8B20689F98002AA54C /* SubjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34637D8920689F98002AA54C /* SubjectsViewController.xib */; };
 		348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CADA72064C3C000C1B674 /* GrammarsViewController.swift */; };
 		348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348CADA82064C3C000C1B674 /* GrammarsViewController.xib */; };
 		348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */; };
@@ -26,6 +30,8 @@
 		34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4236E2064A90E00408E6B /* RxMusicListViewModel.swift */; };
 		34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D423702064A96900408E6B /* FutureTableViewController.swift */; };
 		34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D423712064A96900408E6B /* FutureTableViewController.xib */; };
+		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
+		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		7A6ACAF210EB6B0297515B55 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B80CFE547400AEA505736 /* Pods_RxSwiftDemo.framework */; };
 		840A99DD864F7238BB455720 /* Pods_RxSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B32DEEC4FB45025BE32894 /* Pods_RxSwiftDemoUITests.framework */; };
 		8DE3A081B353040DE17885CA /* Pods_RxSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7F636CA5E26B7B8CA98BE /* Pods_RxSwiftDemoTests.framework */; };
@@ -62,6 +68,10 @@
 		343D89242064985500F96807 /* RxSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D89282064985500F96807 /* RxSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		343D892A2064985500F96807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34435F0A20689B0400321F75 /* BingAttributesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingAttributesViewController.swift; sourceTree = "<group>"; };
+		34435F0B20689B0400321F75 /* BingAttributesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BingAttributesViewController.xib; sourceTree = "<group>"; };
+		34637D8820689F98002AA54C /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		34637D8920689F98002AA54C /* SubjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubjectsViewController.xib; sourceTree = "<group>"; };
 		348CADA72064C3C000C1B674 /* GrammarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarsViewController.swift; sourceTree = "<group>"; };
 		348CADA82064C3C000C1B674 /* GrammarsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrammarsViewController.xib; sourceTree = "<group>"; };
 		348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIndexViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +85,8 @@
 		34D4236E2064A90E00408E6B /* RxMusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMusicListViewModel.swift; sourceTree = "<group>"; };
 		34D423702064A96900408E6B /* FutureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureTableViewController.swift; sourceTree = "<group>"; };
 		34D423712064A96900408E6B /* FutureTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureTableViewController.xib; sourceTree = "<group>"; };
+		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
+		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		458B80CFE547400AEA505736 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F870BD27DA32A4E3935F28 /* Pods-RxSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemoTests/Pods-RxSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6488973930887E4578E29423 /* Pods-RxSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemoUITests/Pods-RxSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +164,9 @@
 				34D4236A2064A3AD00408E6B /* RootTable */,
 				34D4236B2064A89D00408E6B /* MusicList */,
 				348CADA62064B09B00C1B674 /* BasicGrammar */,
+				34EA6754206899A000C5AFD7 /* BingAttributes */,
+				34637D8720689F70002AA54C /* Subjects */,
+				34DFD98E2068A420003FEC90 /* TransformingObservables */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -176,6 +191,15 @@
 				343D892A2064985500F96807 /* Info.plist */,
 			);
 			path = RxSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		34637D8720689F70002AA54C /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				34637D8820689F98002AA54C /* SubjectsViewController.swift */,
+				34637D8920689F98002AA54C /* SubjectsViewController.xib */,
+			);
+			path = Subjects;
 			sourceTree = "<group>";
 		};
 		348CADA62064B09B00C1B674 /* BasicGrammar */ = {
@@ -226,6 +250,24 @@
 				34D423712064A96900408E6B /* FutureTableViewController.xib */,
 			);
 			path = Future;
+			sourceTree = "<group>";
+		};
+		34DFD98E2068A420003FEC90 /* TransformingObservables */ = {
+			isa = PBXGroup;
+			children = (
+				34DFD98F2068A446003FEC90 /* TransformingViewController.swift */,
+				34DFD9902068A447003FEC90 /* TransformingViewController.xib */,
+			);
+			path = TransformingObservables;
+			sourceTree = "<group>";
+		};
+		34EA6754206899A000C5AFD7 /* BingAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				34435F0A20689B0400321F75 /* BingAttributesViewController.swift */,
+				34435F0B20689B0400321F75 /* BingAttributesViewController.xib */,
+			);
+			path = BingAttributes;
 			sourceTree = "<group>";
 		};
 		D55575FAD976AFE7096DFA48 /* Pods */ = {
@@ -359,11 +401,14 @@
 			files = (
 				343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */,
 				348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */,
+				34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */,
 				34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */,
 				343D89102064985400F96807 /* Assets.xcassets in Resources */,
 				343D890E2064985400F96807 /* Main.storyboard in Resources */,
 				348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */,
+				34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
+				34637D8B20689F98002AA54C /* SubjectsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,10 +596,13 @@
 			files = (
 				34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */,
 				348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */,
+				34435F0C20689B0400321F75 /* BingAttributesViewController.swift in Sources */,
 				34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */,
 				348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */,
+				34637D8A20689F98002AA54C /* SubjectsViewController.swift in Sources */,
 				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
+				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
 				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
 				34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */,
 				343D89092064985400F96807 /* AppDelegate.swift in Sources */,

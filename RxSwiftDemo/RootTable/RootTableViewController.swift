@@ -33,25 +33,36 @@ class RootTableViewController: UIViewController {
         arrayList = [
             ["Music 列表演示","RxMusic 列表演示"],
             ["RxSwift 基本语法"],
-            ["RxSwift Bind"],
+            ["RxSwift Bind","Bing Attributes"],
+            ["Subjects"],
+            ["Transforming"],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
             "RxMusic 列表演示":"响应式编程，减少了 1/4 代码量",
             "RxSwift 基本语法":"Observable订阅、监听、销毁",
             "RxSwift Bind":"将索引数Bind到Label",
+            "Bing Attributes":"对 Reactive 扩展绑定",
+            "Subjects":"Subjects 基本介绍",
+            "Transforming":"变换操作示例",
         ]
         picDic = [
             "Music 列表演示":"",
             "RxMusic 列表演示":"",
             "RxSwift 基本语法":"",
             "RxSwift Bind":"",
+            "Bing Attributes":"",
+            "Subjects":"",
+            "Transforming":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
             "RxMusic 列表演示":"FutureTableViewController",
             "RxSwift 基本语法":"GrammarsViewController",
             "RxSwift Bind":"AddIndexViewController",
+            "Bing Attributes":"BingAttributesViewController",
+            "Subjects":"SubjectsViewController",
+            "Transforming":"TransformingViewController",
         ]
     }
     
