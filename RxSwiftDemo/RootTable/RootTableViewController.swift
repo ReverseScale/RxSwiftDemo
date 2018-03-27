@@ -35,7 +35,8 @@ class RootTableViewController: UIViewController {
             ["RxSwift 基本语法"],
             ["RxSwift Bind","Bing Attributes"],
             ["Subjects"],
-            ["Transforming"],
+            ["Transforming","ConditionalBoolean","Combining","MathematicalAggregate"],
+            ["Connectable"],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -45,6 +46,10 @@ class RootTableViewController: UIViewController {
             "Bing Attributes":"对 Reactive 扩展绑定",
             "Subjects":"Subjects 基本介绍",
             "Transforming":"变换操作示例",
+            "ConditionalBoolean":"条件和布尔操作符",
+            "Combining":"结合操作示例",
+            "MathematicalAggregate":"算数、以及聚合操作",
+            "Connectable":"连接操作",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -54,6 +59,10 @@ class RootTableViewController: UIViewController {
             "Bing Attributes":"",
             "Subjects":"",
             "Transforming":"",
+            "ConditionalBoolean":"",
+            "Combining":"",
+            "MathematicalAggregate":"",
+            "Connectable":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -63,6 +72,10 @@ class RootTableViewController: UIViewController {
             "Bing Attributes":"BingAttributesViewController",
             "Subjects":"SubjectsViewController",
             "Transforming":"TransformingViewController",
+            "ConditionalBoolean":"ConditionalBooleanViewController",
+            "Combining":"CombiningObservablesViewController",
+            "MathematicalAggregate":"MathematicalAggregateViewController",
+            "Connectable":"ConnectableViewController",
         ]
     }
     

@@ -16,6 +16,8 @@ class TransformingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Transforming"
 
         createBuffer()
         

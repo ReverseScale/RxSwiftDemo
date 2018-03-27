@@ -23,6 +23,8 @@ class AddIndexViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Add Index"
+        
         observableTest()
         
         anyObserver()

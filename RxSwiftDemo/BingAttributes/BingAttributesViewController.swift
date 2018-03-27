@@ -18,6 +18,8 @@ class BingAttributesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Bing Attributes"
 
         //Observable序列（每隔0.5秒钟发出一个索引数）
         let observable = Observable<Int>.interval(0.5, scheduler: MainScheduler.instance)

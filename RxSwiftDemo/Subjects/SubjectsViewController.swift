@@ -17,6 +17,8 @@ class SubjectsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Subjects"
+        
         createPublishSubject()
         
         createBehaviorSubject()
