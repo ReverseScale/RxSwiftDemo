@@ -37,6 +37,7 @@ class RootTableViewController: UIViewController {
             ["Subjects"],
             ["Transforming","ConditionalBoolean","Combining","MathematicalAggregate"],
             ["Connectable"],
+            ["ErrorHandling","Debug"],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -50,6 +51,8 @@ class RootTableViewController: UIViewController {
             "Combining":"结合操作示例",
             "MathematicalAggregate":"算数、以及聚合操作",
             "Connectable":"连接操作",
+            "ErrorHandling":"错误处理",
+            "Debug":"调试操作",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -63,6 +66,8 @@ class RootTableViewController: UIViewController {
             "Combining":"",
             "MathematicalAggregate":"",
             "Connectable":"",
+            "ErrorHandling":"",
+            "Debug":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -76,6 +81,8 @@ class RootTableViewController: UIViewController {
             "Combining":"CombiningObservablesViewController",
             "MathematicalAggregate":"MathematicalAggregateViewController",
             "Connectable":"ConnectableViewController",
+            "ErrorHandling":"ErrorHandlingViewController",
+            "Debug":"DebugViewController",
         ]
     }
     

@@ -21,17 +21,35 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订阅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52C-gQ-mJB">
-                    <rect key="frame" x="170" y="323" width="35" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connectable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52C-gQ-mJB">
+                    <rect key="frame" x="138.5" y="323" width="98" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp3-o4-pE5">
+                    <rect key="frame" x="159" y="243" width="57" height="30"/>
+                    <state key="normal" title="Timeout"/>
+                    <connections>
+                        <action selector="timeoutAction:" destination="-1" eventType="touchUpInside" id="D59-0O-SCd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeG-nZ-NRx">
+                    <rect key="frame" x="167" y="394" width="40" height="30"/>
+                    <state key="normal" title="Using"/>
+                    <connections>
+                        <action selector="usingAction:" destination="-1" eventType="touchUpInside" id="Sll-66-t5w"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="52C-gQ-mJB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="31n-dQ-7Gk"/>
+                <constraint firstItem="eeG-nZ-NRx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6nq-K0-h3h"/>
                 <constraint firstItem="52C-gQ-mJB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IxD-Va-VqY"/>
+                <constraint firstItem="eeG-nZ-NRx" firstAttribute="top" secondItem="52C-gQ-mJB" secondAttribute="bottom" constant="50" id="OHs-2G-Mo3"/>
+                <constraint firstItem="52C-gQ-mJB" firstAttribute="top" secondItem="bp3-o4-pE5" secondAttribute="bottom" constant="50" id="YLj-h7-NZF"/>
+                <constraint firstItem="bp3-o4-pE5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nzQ-2z-hu0"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="34.5" y="84.5"/>

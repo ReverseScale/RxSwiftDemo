@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ErrorHandlingViewController" customModule="RxSwiftDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75w-x6-h80">
+                    <rect key="frame" x="151.5" y="318.5" width="72" height="30"/>
+                    <state key="normal" title="catchError"/>
+                    <connections>
+                        <action selector="catchErrorAction:" destination="-1" eventType="touchUpInside" id="euH-g4-762"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2U6-Ul-fmS">
+                    <rect key="frame" x="171" y="398.5" width="33" height="30"/>
+                    <state key="normal" title="retry"/>
+                    <connections>
+                        <action selector="retryAction:" destination="-1" eventType="touchUpInside" id="9iR-20-dMH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYd-lX-aty">
+                    <rect key="frame" x="114" y="238.5" width="146" height="30"/>
+                    <state key="normal" title="catchErrorJustReturn"/>
+                    <connections>
+                        <action selector="catchErrorJustReturnAction:" destination="-1" eventType="touchUpInside" id="UI6-Gj-0KT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="75w-x6-h80" firstAttribute="top" secondItem="DYd-lX-aty" secondAttribute="bottom" constant="50" id="3Tr-7g-xHj"/>
+                <constraint firstItem="DYd-lX-aty" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ev6-eW-mzx"/>
+                <constraint firstItem="75w-x6-h80" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GVZ-uk-bb3"/>
+                <constraint firstItem="2U6-Ul-fmS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Lzu-t0-Pei"/>
+                <constraint firstItem="75w-x6-h80" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="h47-VK-OJp"/>
+                <constraint firstItem="2U6-Ul-fmS" firstAttribute="top" secondItem="75w-x6-h80" secondAttribute="bottom" constant="50" id="tOl-KP-nuj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

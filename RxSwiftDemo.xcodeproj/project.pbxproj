@@ -40,6 +40,10 @@
 		34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D423712064A96900408E6B /* FutureTableViewController.xib */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
+		34F8EC0D206B309C007E048B /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F8EC0B206B309C007E048B /* ErrorHandlingViewController.swift */; };
+		34F8EC0E206B309C007E048B /* ErrorHandlingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F8EC0C206B309C007E048B /* ErrorHandlingViewController.xib */; };
+		34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F8EC10206B33F8007E048B /* DebugViewController.swift */; };
+		34F8EC13206B33F8007E048B /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F8EC11206B33F8007E048B /* DebugViewController.xib */; };
 		7A6ACAF210EB6B0297515B55 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B80CFE547400AEA505736 /* Pods_RxSwiftDemo.framework */; };
 		840A99DD864F7238BB455720 /* Pods_RxSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B32DEEC4FB45025BE32894 /* Pods_RxSwiftDemoUITests.framework */; };
 		8DE3A081B353040DE17885CA /* Pods_RxSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7F636CA5E26B7B8CA98BE /* Pods_RxSwiftDemoTests.framework */; };
@@ -103,6 +107,10 @@
 		34D423712064A96900408E6B /* FutureTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureTableViewController.xib; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
+		34F8EC0B206B309C007E048B /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
+		34F8EC0C206B309C007E048B /* ErrorHandlingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorHandlingViewController.xib; sourceTree = "<group>"; };
+		34F8EC10206B33F8007E048B /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
+		34F8EC11206B33F8007E048B /* DebugViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
 		458B80CFE547400AEA505736 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F870BD27DA32A4E3935F28 /* Pods-RxSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemoTests/Pods-RxSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6488973930887E4578E29423 /* Pods-RxSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemoUITests/Pods-RxSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +201,8 @@
 				34637D8720689F70002AA54C /* Subjects */,
 				34DFD98E2068A420003FEC90 /* TransformingObservables */,
 				342D083F2069E207008D0F8D /* Connectable */,
+				34F8EC0A206B306B007E048B /* Error */,
+				34F8EC0F206B33C5007E048B /* Debug */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -300,6 +310,24 @@
 				34435F0B20689B0400321F75 /* BingAttributesViewController.xib */,
 			);
 			path = BingAttributes;
+			sourceTree = "<group>";
+		};
+		34F8EC0A206B306B007E048B /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				34F8EC0B206B309C007E048B /* ErrorHandlingViewController.swift */,
+				34F8EC0C206B309C007E048B /* ErrorHandlingViewController.xib */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		34F8EC0F206B33C5007E048B /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				34F8EC10206B33F8007E048B /* DebugViewController.swift */,
+				34F8EC11206B33F8007E048B /* DebugViewController.xib */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		D55575FAD976AFE7096DFA48 /* Pods */ = {
@@ -436,6 +464,7 @@
 				348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */,
 				34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */,
 				34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */,
+				34F8EC0E206B309C007E048B /* ErrorHandlingViewController.xib in Resources */,
 				343D89102064985400F96807 /* Assets.xcassets in Resources */,
 				343D890E2064985400F96807 /* Main.storyboard in Resources */,
 				342D08432069E219008D0F8D /* ConnectableViewController.xib in Resources */,
@@ -444,6 +473,7 @@
 				34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */,
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
+				34F8EC13206B33F8007E048B /* DebugViewController.xib in Resources */,
 				34637D8B20689F98002AA54C /* SubjectsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -631,6 +661,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */,
+				34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */,
 				348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */,
 				34435F0C20689B0400321F75 /* BingAttributesViewController.swift in Sources */,
 				34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */,
@@ -644,6 +675,7 @@
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
 				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
 				34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */,
+				34F8EC0D206B309C007E048B /* ErrorHandlingViewController.swift in Sources */,
 				343D89092064985400F96807 /* AppDelegate.swift in Sources */,
 				342D08352069DC01008D0F8D /* ConditionalBooleanViewController.swift in Sources */,
 				34D4235720649BC900408E6B /* Music.swift in Sources */,
