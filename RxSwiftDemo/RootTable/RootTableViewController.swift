@@ -38,6 +38,7 @@ class RootTableViewController: UIViewController {
             ["Transforming","ConditionalBoolean","Combining","MathematicalAggregate"],
             ["Connectable"],
             ["ErrorHandling","Debug"],
+            ["RxCocoaTraits"],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -53,6 +54,7 @@ class RootTableViewController: UIViewController {
             "Connectable":"连接操作",
             "ErrorHandling":"错误处理",
             "Debug":"调试操作",
+            "RxCocoaTraits":"RxCocoa traits",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -68,6 +70,7 @@ class RootTableViewController: UIViewController {
             "Connectable":"",
             "ErrorHandling":"",
             "Debug":"",
+            "RxCocoaTraits":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -83,6 +86,8 @@ class RootTableViewController: UIViewController {
             "Connectable":"ConnectableViewController",
             "ErrorHandling":"ErrorHandlingViewController",
             "Debug":"DebugViewController",
+            "Driver":"DriverViewController",
+            "RxCocoaTraits":"RxCocoaTraitsViewController",
         ]
     }
     

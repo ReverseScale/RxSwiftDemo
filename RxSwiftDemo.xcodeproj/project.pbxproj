@@ -40,6 +40,8 @@
 		34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D423712064A96900408E6B /* FutureTableViewController.xib */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
+		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
+		34E93CD5206C815F00A89512 /* RxCocoaTraitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E93CD3206C815F00A89512 /* RxCocoaTraitsViewController.xib */; };
 		34F8EC0D206B309C007E048B /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F8EC0B206B309C007E048B /* ErrorHandlingViewController.swift */; };
 		34F8EC0E206B309C007E048B /* ErrorHandlingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F8EC0C206B309C007E048B /* ErrorHandlingViewController.xib */; };
 		34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F8EC10206B33F8007E048B /* DebugViewController.swift */; };
@@ -107,6 +109,8 @@
 		34D423712064A96900408E6B /* FutureTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureTableViewController.xib; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
+		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
+		34E93CD3206C815F00A89512 /* RxCocoaTraitsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCocoaTraitsViewController.xib; sourceTree = "<group>"; };
 		34F8EC0B206B309C007E048B /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
 		34F8EC0C206B309C007E048B /* ErrorHandlingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorHandlingViewController.xib; sourceTree = "<group>"; };
 		34F8EC10206B33F8007E048B /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 				342D083F2069E207008D0F8D /* Connectable */,
 				34F8EC0A206B306B007E048B /* Error */,
 				34F8EC0F206B33C5007E048B /* Debug */,
+				34E93CD1206C813900A89512 /* RxCocoaTraits */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -301,6 +306,15 @@
 				342D083C2069E052008D0F8D /* MathematicalAggregateViewController.xib */,
 			);
 			path = TransformingObservables;
+			sourceTree = "<group>";
+		};
+		34E93CD1206C813900A89512 /* RxCocoaTraits */ = {
+			isa = PBXGroup;
+			children = (
+				34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */,
+				34E93CD3206C815F00A89512 /* RxCocoaTraitsViewController.xib */,
+			);
+			path = RxCocoaTraits;
 			sourceTree = "<group>";
 		};
 		34EA6754206899A000C5AFD7 /* BingAttributes */ = {
@@ -474,6 +488,7 @@
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
 				34F8EC13206B33F8007E048B /* DebugViewController.xib in Resources */,
+				34E93CD5206C815F00A89512 /* RxCocoaTraitsViewController.xib in Resources */,
 				34637D8B20689F98002AA54C /* SubjectsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,6 +690,7 @@
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
 				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
 				34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */,
+				34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */,
 				34F8EC0D206B309C007E048B /* ErrorHandlingViewController.swift in Sources */,
 				343D89092064985400F96807 /* AppDelegate.swift in Sources */,
 				342D08352069DC01008D0F8D /* ConditionalBooleanViewController.swift in Sources */,
