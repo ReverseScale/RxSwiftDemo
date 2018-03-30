@@ -42,6 +42,10 @@
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
 		34E93CD5206C815F00A89512 /* RxCocoaTraitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E93CD3206C815F00A89512 /* RxCocoaTraitsViewController.xib */; };
+		34E93D2E206DD66100A89512 /* RxCocoaUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93D2C206DD66100A89512 /* RxCocoaUIViewController.swift */; };
+		34E93D2F206DD66100A89512 /* RxCocoaUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E93D2D206DD66100A89512 /* RxCocoaUIViewController.xib */; };
+		34E93D32206DDA5300A89512 /* RxCocoaUITextFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93D30206DDA5300A89512 /* RxCocoaUITextFileViewController.swift */; };
+		34E93D33206DDA5300A89512 /* RxCocoaUITextFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E93D31206DDA5300A89512 /* RxCocoaUITextFileViewController.xib */; };
 		34F8EC0D206B309C007E048B /* ErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F8EC0B206B309C007E048B /* ErrorHandlingViewController.swift */; };
 		34F8EC0E206B309C007E048B /* ErrorHandlingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F8EC0C206B309C007E048B /* ErrorHandlingViewController.xib */; };
 		34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F8EC10206B33F8007E048B /* DebugViewController.swift */; };
@@ -111,6 +115,10 @@
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
 		34E93CD3206C815F00A89512 /* RxCocoaTraitsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCocoaTraitsViewController.xib; sourceTree = "<group>"; };
+		34E93D2C206DD66100A89512 /* RxCocoaUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaUIViewController.swift; sourceTree = "<group>"; };
+		34E93D2D206DD66100A89512 /* RxCocoaUIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCocoaUIViewController.xib; sourceTree = "<group>"; };
+		34E93D30206DDA5300A89512 /* RxCocoaUITextFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaUITextFileViewController.swift; sourceTree = "<group>"; };
+		34E93D31206DDA5300A89512 /* RxCocoaUITextFileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCocoaUITextFileViewController.xib; sourceTree = "<group>"; };
 		34F8EC0B206B309C007E048B /* ErrorHandlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewController.swift; sourceTree = "<group>"; };
 		34F8EC0C206B309C007E048B /* ErrorHandlingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorHandlingViewController.xib; sourceTree = "<group>"; };
 		34F8EC10206B33F8007E048B /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
@@ -208,6 +216,7 @@
 				34F8EC0A206B306B007E048B /* Error */,
 				34F8EC0F206B33C5007E048B /* Debug */,
 				34E93CD1206C813900A89512 /* RxCocoaTraits */,
+				34E93D2B206DD64D00A89512 /* RxCocoaUI */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -315,6 +324,17 @@
 				34E93CD3206C815F00A89512 /* RxCocoaTraitsViewController.xib */,
 			);
 			path = RxCocoaTraits;
+			sourceTree = "<group>";
+		};
+		34E93D2B206DD64D00A89512 /* RxCocoaUI */ = {
+			isa = PBXGroup;
+			children = (
+				34E93D2C206DD66100A89512 /* RxCocoaUIViewController.swift */,
+				34E93D2D206DD66100A89512 /* RxCocoaUIViewController.xib */,
+				34E93D30206DDA5300A89512 /* RxCocoaUITextFileViewController.swift */,
+				34E93D31206DDA5300A89512 /* RxCocoaUITextFileViewController.xib */,
+			);
+			path = RxCocoaUI;
 			sourceTree = "<group>";
 		};
 		34EA6754206899A000C5AFD7 /* BingAttributes */ = {
@@ -475,12 +495,14 @@
 			files = (
 				342D083A2069DE48008D0F8D /* CombiningObservablesViewController.xib in Resources */,
 				343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */,
+				34E93D33206DDA5300A89512 /* RxCocoaUITextFileViewController.xib in Resources */,
 				348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */,
 				34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */,
 				34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */,
 				34F8EC0E206B309C007E048B /* ErrorHandlingViewController.xib in Resources */,
 				343D89102064985400F96807 /* Assets.xcassets in Resources */,
 				343D890E2064985400F96807 /* Main.storyboard in Resources */,
+				34E93D2F206DD66100A89512 /* RxCocoaUIViewController.xib in Resources */,
 				342D08432069E219008D0F8D /* ConnectableViewController.xib in Resources */,
 				348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */,
 				342D083E2069E052008D0F8D /* MathematicalAggregateViewController.xib in Resources */,
@@ -683,8 +705,10 @@
 				342D083D2069E052008D0F8D /* MathematicalAggregateViewController.swift in Sources */,
 				342D08392069DE48008D0F8D /* CombiningObservablesViewController.swift in Sources */,
 				348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */,
+				34E93D2E206DD66100A89512 /* RxCocoaUIViewController.swift in Sources */,
 				34637D8A20689F98002AA54C /* SubjectsViewController.swift in Sources */,
 				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
+				34E93D32206DDA5300A89512 /* RxCocoaUITextFileViewController.swift in Sources */,
 				342D08422069E219008D0F8D /* ConnectableViewController.swift in Sources */,
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
