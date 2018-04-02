@@ -29,6 +29,10 @@
 		348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348CADA82064C3C000C1B674 /* GrammarsViewController.xib */; };
 		348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */; };
 		348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348CADAC2064D14E00C1B674 /* AddIndexViewController.xib */; };
+		348F46492071C2DD008AD4D7 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F46472071C2DD008AD4D7 /* ActivityIndicatorViewController.swift */; };
+		348F464A2071C2DD008AD4D7 /* ActivityIndicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348F46482071C2DD008AD4D7 /* ActivityIndicatorViewController.xib */; };
+		348F46502071C7C9008AD4D7 /* vue.png in Resources */ = {isa = PBXBuildFile; fileRef = 348F464D2071C7C8008AD4D7 /* vue.png */; };
+		348F46512071C7C9008AD4D7 /* js.png in Resources */ = {isa = PBXBuildFile; fileRef = 348F464E2071C7C8008AD4D7 /* js.png */; };
 		34D4235720649BC900408E6B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235620649BC900408E6B /* Music.swift */; };
 		34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235C20649D0600408E6B /* PastTableViewController.swift */; };
 		34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D4235D20649D0600408E6B /* PastTableViewController.xib */; };
@@ -104,6 +108,10 @@
 		348CADA82064C3C000C1B674 /* GrammarsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrammarsViewController.xib; sourceTree = "<group>"; };
 		348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIndexViewController.swift; sourceTree = "<group>"; };
 		348CADAC2064D14E00C1B674 /* AddIndexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddIndexViewController.xib; sourceTree = "<group>"; };
+		348F46472071C2DD008AD4D7 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		348F46482071C2DD008AD4D7 /* ActivityIndicatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityIndicatorViewController.xib; sourceTree = "<group>"; };
+		348F464D2071C7C8008AD4D7 /* vue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vue.png; sourceTree = "<group>"; };
+		348F464E2071C7C8008AD4D7 /* js.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = js.png; sourceTree = "<group>"; };
 		34D4235620649BC900408E6B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		34D4235C20649D0600408E6B /* PastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTableViewController.swift; sourceTree = "<group>"; };
 		34D4235D20649D0600408E6B /* PastTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastTableViewController.xib; sourceTree = "<group>"; };
@@ -222,9 +230,11 @@
 				34E93CD1206C813900A89512 /* RxCocoaTraits */,
 				34E93D2B206DD64D00A89512 /* RxCocoaUI */,
 				34E93D3B206DE3C500A89512 /* RxCocoaUIButton */,
+				348F46462071C2A9008AD4D7 /* RxActivityIndicator */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
+				348F464B2071C740008AD4D7 /* Resources */,
 				343D89142064985400F96807 /* Info.plist */,
 			);
 			path = RxSwiftDemo;
@@ -266,6 +276,24 @@
 				348CADAC2064D14E00C1B674 /* AddIndexViewController.xib */,
 			);
 			path = BasicGrammar;
+			sourceTree = "<group>";
+		};
+		348F46462071C2A9008AD4D7 /* RxActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				348F46472071C2DD008AD4D7 /* ActivityIndicatorViewController.swift */,
+				348F46482071C2DD008AD4D7 /* ActivityIndicatorViewController.xib */,
+			);
+			path = RxActivityIndicator;
+			sourceTree = "<group>";
+		};
+		348F464B2071C740008AD4D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				348F464E2071C7C8008AD4D7 /* js.png */,
+				348F464D2071C7C8008AD4D7 /* vue.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		34D4236A2064A3AD00408E6B /* RootTable */ = {
@@ -508,6 +536,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342D083A2069DE48008D0F8D /* CombiningObservablesViewController.xib in Resources */,
+				348F464A2071C2DD008AD4D7 /* ActivityIndicatorViewController.xib in Resources */,
 				343D89132064985400F96807 /* LaunchScreen.storyboard in Resources */,
 				34E93D33206DDA5300A89512 /* RxCocoaUITextFileViewController.xib in Resources */,
 				348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */,
@@ -522,10 +551,12 @@
 				348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */,
 				342D083E2069E052008D0F8D /* MathematicalAggregateViewController.xib in Resources */,
 				34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */,
+				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
 				34F8EC13206B33F8007E048B /* DebugViewController.xib in Resources */,
 				34E93CD5206C815F00A89512 /* RxCocoaTraitsViewController.xib in Resources */,
+				348F46512071C7C9008AD4D7 /* js.png in Resources */,
 				34637D8B20689F98002AA54C /* SubjectsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,6 +744,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */,
+				348F46492071C2DD008AD4D7 /* ActivityIndicatorViewController.swift in Sources */,
 				34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */,
 				348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */,
 				34E93D3E206DE3DC00A89512 /* RxCocoaUIButtonViewController.swift in Sources */,

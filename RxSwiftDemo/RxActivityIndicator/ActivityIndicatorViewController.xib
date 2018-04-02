@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityIndicatorViewController" customModule="RxSwiftDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="KPJ-IR-cFZ" id="opL-a2-UeX"/>
+                <outlet property="imageView" destination="rGQ-3l-w7B" id="5C7-M8-nLJ"/>
+                <outlet property="myButton" destination="btC-jM-eKN" id="3Y3-pt-qQy"/>
+                <outlet property="mySwitch" destination="guE-Cc-Lz3" id="5Th-T3-pDi"/>
+                <outlet property="segmented" destination="Ukb-Fa-cFm" id="dOg-eB-gMM"/>
+                <outlet property="slider" destination="6nR-4L-gXz" id="Mmj-r2-Rov"/>
+                <outlet property="stepper" destination="fFV-xR-jdG" id="ohG-03-5Lm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="guE-Cc-Lz3">
+                    <rect key="frame" x="163" y="218" width="51" height="31"/>
+                </switch>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="KPJ-IR-cFZ">
+                    <rect key="frame" x="237" y="223" width="20" height="20"/>
+                </activityIndicatorView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btC-jM-eKN">
+                    <rect key="frame" x="92" y="219" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ukb-Fa-cFm">
+                    <rect key="frame" x="151" y="289" width="73" height="29"/>
+                    <segments>
+                        <segment title="js"/>
+                        <segment title="vue"/>
+                    </segments>
+                </segmentedControl>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rGQ-3l-w7B">
+                    <rect key="frame" x="123" y="357" width="128" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="128" id="12n-FO-xYe"/>
+                        <constraint firstAttribute="height" constant="128" id="Vlh-B0-nrO"/>
+                    </constraints>
+                </imageView>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6nR-4L-gXz">
+                    <rect key="frame" x="128.5" y="129" width="118" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="gc3-bG-GAT"/>
+                    </constraints>
+                </slider>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="fFV-xR-jdG">
+                    <rect key="frame" x="130.5" y="85" width="94" height="29"/>
+                </stepper>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6nR-4L-gXz" firstAttribute="top" secondItem="fFV-xR-jdG" secondAttribute="bottom" constant="15" id="0vi-GO-VXJ"/>
+                <constraint firstItem="guE-Cc-Lz3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Pg-gM-tde"/>
+                <constraint firstItem="guE-Cc-Lz3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="7tE-jZ-Jec"/>
+                <constraint firstItem="rGQ-3l-w7B" firstAttribute="top" secondItem="Ukb-Fa-cFm" secondAttribute="bottom" constant="40" id="8Ll-OD-MVE"/>
+                <constraint firstItem="guE-Cc-Lz3" firstAttribute="top" secondItem="6nR-4L-gXz" secondAttribute="bottom" constant="59" id="AwB-19-SWU"/>
+                <constraint firstItem="rGQ-3l-w7B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CR6-4e-T1c"/>
+                <constraint firstItem="guE-Cc-Lz3" firstAttribute="leading" secondItem="btC-jM-eKN" secondAttribute="trailing" constant="25" id="Oco-uC-hpZ"/>
+                <constraint firstItem="guE-Cc-Lz3" firstAttribute="centerY" secondItem="btC-jM-eKN" secondAttribute="centerY" id="OlX-aj-vBv"/>
+                <constraint firstItem="Ukb-Fa-cFm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QOd-hx-Wi3"/>
+                <constraint firstItem="KPJ-IR-cFZ" firstAttribute="centerY" secondItem="guE-Cc-Lz3" secondAttribute="centerY" id="Wia-Kj-9UK"/>
+                <constraint firstItem="KPJ-IR-cFZ" firstAttribute="leading" secondItem="guE-Cc-Lz3" secondAttribute="trailing" constant="25" id="cRC-bK-8st"/>
+                <constraint firstItem="6nR-4L-gXz" firstAttribute="leading" secondItem="fFV-xR-jdG" secondAttribute="leading" id="eXx-EK-XzD"/>
+                <constraint firstItem="6nR-4L-gXz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pak-22-hk8"/>
+                <constraint firstItem="Ukb-Fa-cFm" firstAttribute="top" secondItem="guE-Cc-Lz3" secondAttribute="bottom" constant="40" id="utZ-P6-6nl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
