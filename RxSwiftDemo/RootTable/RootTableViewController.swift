@@ -39,6 +39,7 @@ class RootTableViewController: UIViewController {
             ["Connectable"],
             ["ErrorHandling","Debug"],
             ["RxCocoaTraits","RxCocoaUI","RxCocoaUITextFile","RxCocoaUIButton","RxActivityIndicator"],
+            ["RxOperator","RxGestureRecognizer","DatePicker","TimeDatePicker",],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -59,6 +60,10 @@ class RootTableViewController: UIViewController {
             "RxCocoaUITextFile":"RxCocoa UI TextFile",
             "RxCocoaUIButton":"RxCocoa UI Button",
             "RxActivityIndicator":"活动指示器",
+            "RxOperator":"双向绑定操作",
+            "RxGestureRecognizer":"手势识别封装",
+            "DatePicker":"时间选择器",
+            "TimeDatePicker":"倒计时使用",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -79,6 +84,10 @@ class RootTableViewController: UIViewController {
             "RxCocoaUITextFile":"",
             "RxCocoaUIButton":"",
             "RxActivityIndicator":"",
+            "RxOperator":"",
+            "RxGestureRecognizer":"",
+            "DatePicker":"",
+            "TimeDatePicker":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -99,7 +108,11 @@ class RootTableViewController: UIViewController {
             "RxCocoaUI":"RxCocoaUIViewController",
             "RxCocoaUITextFile":"RxCocoaUITextFileViewController",
             "RxCocoaUIButton":"RxCocoaUIButtonViewController",
-            "RxActivityIndicator":"ActivityIndicatorViewController"
+            "RxActivityIndicator":"ActivityIndicatorViewController",
+            "RxOperator":"RxOperatorViewController",
+            "RxGestureRecognizer":"GestureRecognizerViewController",
+            "DatePicker":"DatePickerViewController",
+            "TimeDatePicker":"TimeDatePickerViewController",
         ]
     }
     
