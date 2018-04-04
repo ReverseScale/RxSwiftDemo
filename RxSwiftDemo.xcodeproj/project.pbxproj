@@ -43,6 +43,8 @@
 		348F47AC20731727008AD4D7 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348F47AA20731727008AD4D7 /* DatePickerViewController.xib */; };
 		348F47AF20731831008AD4D7 /* TimeDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F47AD20731831008AD4D7 /* TimeDatePickerViewController.swift */; };
 		348F47B020731831008AD4D7 /* TimeDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348F47AE20731831008AD4D7 /* TimeDatePickerViewController.xib */; };
+		348F47C3207468F0008AD4D7 /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F47C1207468F0008AD4D7 /* RxTableViewController.swift */; };
+		348F47C4207468F0008AD4D7 /* RxTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348F47C2207468F0008AD4D7 /* RxTableViewController.xib */; };
 		34D4235720649BC900408E6B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235620649BC900408E6B /* Music.swift */; };
 		34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235C20649D0600408E6B /* PastTableViewController.swift */; };
 		34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D4235D20649D0600408E6B /* PastTableViewController.xib */; };
@@ -132,6 +134,8 @@
 		348F47AA20731727008AD4D7 /* DatePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
 		348F47AD20731831008AD4D7 /* TimeDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDatePickerViewController.swift; sourceTree = "<group>"; };
 		348F47AE20731831008AD4D7 /* TimeDatePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeDatePickerViewController.xib; sourceTree = "<group>"; };
+		348F47C1207468F0008AD4D7 /* RxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
+		348F47C2207468F0008AD4D7 /* RxTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxTableViewController.xib; sourceTree = "<group>"; };
 		34D4235620649BC900408E6B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		34D4235C20649D0600408E6B /* PastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTableViewController.swift; sourceTree = "<group>"; };
 		34D4235D20649D0600408E6B /* PastTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastTableViewController.xib; sourceTree = "<group>"; };
@@ -254,6 +258,7 @@
 				348F4799207312E9008AD4D7 /* RxOperator */,
 				348F47A3207315BA008AD4D7 /* GestureRecognizer */,
 				348F47A820731710008AD4D7 /* DatePicke */,
+				348F47C0207468AB008AD4D7 /* RxTableView */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -348,6 +353,15 @@
 				348F47AE20731831008AD4D7 /* TimeDatePickerViewController.xib */,
 			);
 			path = DatePicke;
+			sourceTree = "<group>";
+		};
+		348F47C0207468AB008AD4D7 /* RxTableView */ = {
+			isa = PBXGroup;
+			children = (
+				348F47C1207468F0008AD4D7 /* RxTableViewController.swift */,
+				348F47C2207468F0008AD4D7 /* RxTableViewController.xib */,
+			);
+			path = RxTableView;
 			sourceTree = "<group>";
 		};
 		34D4236A2064A3AD00408E6B /* RootTable */ = {
@@ -608,6 +622,7 @@
 				348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */,
 				342D083E2069E052008D0F8D /* MathematicalAggregateViewController.xib in Resources */,
 				34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */,
+				348F47C4207468F0008AD4D7 /* RxTableViewController.xib in Resources */,
 				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
 				348F47A7207315E4008AD4D7 /* GestureRecognizerViewController.xib in Resources */,
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
@@ -824,6 +839,7 @@
 				348F47A6207315E4008AD4D7 /* GestureRecognizerViewController.swift in Sources */,
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
+				348F47C3207468F0008AD4D7 /* RxTableViewController.swift in Sources */,
 				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
 				34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */,
 				34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */,
