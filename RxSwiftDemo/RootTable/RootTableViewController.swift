@@ -40,7 +40,7 @@ class RootTableViewController: UIViewController {
             ["ErrorHandling","Debug"],
             ["RxCocoaTraits","RxCocoaUI","RxCocoaUITextFile","RxCocoaUIButton","RxActivityIndicator"],
             ["RxOperator","RxGestureRecognizer","DatePicker","TimeDatePicker"],
-            ["RxTableView","RxCustomTableView"],
+            ["RxTableView","RxCustomTableView","RxDataTableView"],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -67,6 +67,7 @@ class RootTableViewController: UIViewController {
             "TimeDatePicker":"倒计时使用",
             "RxTableView":"列表使用",
             "RxCustomTableView":"自定义列表使用",
+            "RxDataTableView":"列表数据刷新",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -93,6 +94,7 @@ class RootTableViewController: UIViewController {
             "TimeDatePicker":"",
             "RxTableView":"",
             "RxCustomTableView":"",
+            "RxDataTableView":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -120,6 +122,7 @@ class RootTableViewController: UIViewController {
             "TimeDatePicker":"TimeDatePickerViewController",
             "RxTableView":"RxTableViewController",
             "RxCustomTableView":"RxCustomTableViewController",
+            "RxDataTableView":"RxDataTableViewController",
         ]
     }
     
