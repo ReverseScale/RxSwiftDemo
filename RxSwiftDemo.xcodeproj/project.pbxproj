@@ -45,6 +45,8 @@
 		348F47B020731831008AD4D7 /* TimeDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348F47AE20731831008AD4D7 /* TimeDatePickerViewController.xib */; };
 		348F47C3207468F0008AD4D7 /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F47C1207468F0008AD4D7 /* RxTableViewController.swift */; };
 		348F47C4207468F0008AD4D7 /* RxTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348F47C2207468F0008AD4D7 /* RxTableViewController.xib */; };
+		348F48112079AE0D008AD4D7 /* RxCustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F480F2079AE0D008AD4D7 /* RxCustomTableViewController.swift */; };
+		348F48122079AE0D008AD4D7 /* RxCustomTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348F48102079AE0D008AD4D7 /* RxCustomTableViewController.xib */; };
 		34D4235720649BC900408E6B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235620649BC900408E6B /* Music.swift */; };
 		34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D4235C20649D0600408E6B /* PastTableViewController.swift */; };
 		34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D4235D20649D0600408E6B /* PastTableViewController.xib */; };
@@ -136,6 +138,8 @@
 		348F47AE20731831008AD4D7 /* TimeDatePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeDatePickerViewController.xib; sourceTree = "<group>"; };
 		348F47C1207468F0008AD4D7 /* RxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
 		348F47C2207468F0008AD4D7 /* RxTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxTableViewController.xib; sourceTree = "<group>"; };
+		348F480F2079AE0D008AD4D7 /* RxCustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCustomTableViewController.swift; sourceTree = "<group>"; };
+		348F48102079AE0D008AD4D7 /* RxCustomTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCustomTableViewController.xib; sourceTree = "<group>"; };
 		34D4235620649BC900408E6B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		34D4235C20649D0600408E6B /* PastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTableViewController.swift; sourceTree = "<group>"; };
 		34D4235D20649D0600408E6B /* PastTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastTableViewController.xib; sourceTree = "<group>"; };
@@ -241,6 +245,7 @@
 		343D89072064985400F96807 /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				348F48162079AF7F008AD4D7 /* RxLib */,
 				343D89082064985400F96807 /* AppDelegate.swift */,
 				34D4236A2064A3AD00408E6B /* RootTable */,
 				34D4236B2064A89D00408E6B /* MusicList */,
@@ -360,8 +365,17 @@
 			children = (
 				348F47C1207468F0008AD4D7 /* RxTableViewController.swift */,
 				348F47C2207468F0008AD4D7 /* RxTableViewController.xib */,
+				348F480F2079AE0D008AD4D7 /* RxCustomTableViewController.swift */,
+				348F48102079AE0D008AD4D7 /* RxCustomTableViewController.xib */,
 			);
 			path = RxTableView;
+			sourceTree = "<group>";
+		};
+		348F48162079AF7F008AD4D7 /* RxLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxLib;
 			sourceTree = "<group>";
 		};
 		34D4236A2064A3AD00408E6B /* RootTable */ = {
@@ -623,6 +637,7 @@
 				342D083E2069E052008D0F8D /* MathematicalAggregateViewController.xib in Resources */,
 				34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */,
 				348F47C4207468F0008AD4D7 /* RxTableViewController.xib in Resources */,
+				348F48122079AE0D008AD4D7 /* RxCustomTableViewController.xib in Resources */,
 				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
 				348F47A7207315E4008AD4D7 /* GestureRecognizerViewController.xib in Resources */,
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
@@ -658,13 +673,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -840,6 +859,7 @@
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
 				348F47C3207468F0008AD4D7 /* RxTableViewController.swift in Sources */,
+				348F48112079AE0D008AD4D7 /* RxCustomTableViewController.swift in Sources */,
 				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
 				34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */,
 				34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */,
