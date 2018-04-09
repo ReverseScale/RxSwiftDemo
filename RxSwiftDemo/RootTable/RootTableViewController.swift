@@ -40,7 +40,7 @@ class RootTableViewController: UIViewController {
             ["ErrorHandling","Debug"],
             ["RxCocoaTraits","RxCocoaUI","RxCocoaUITextFile","RxCocoaUIButton","RxActivityIndicator"],
             ["RxOperator","RxGestureRecognizer","DatePicker","TimeDatePicker"],
-            ["RxTableView","RxCustomTableView","RxDataTableView","RxSearchTableView"],
+            ["RxTableView","RxCustomTableView","RxDataTableView","RxSearchTableView","RxEditTableView"],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -69,6 +69,7 @@ class RootTableViewController: UIViewController {
             "RxCustomTableView":"自定义列表使用",
             "RxDataTableView":"列表数据刷新",
             "RxSearchTableView":"搜索列表",
+            "RxEditTableView":"编辑表格",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -97,6 +98,7 @@ class RootTableViewController: UIViewController {
             "RxCustomTableView":"",
             "RxDataTableView":"",
             "RxSearchTableView":"",
+            "RxEditTableView":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -126,6 +128,7 @@ class RootTableViewController: UIViewController {
             "RxCustomTableView":"RxCustomTableViewController",
             "RxDataTableView":"RxDataTableViewController",
             "RxSearchTableView":"RxSearchTableViewController",
+            "RxEditTableView":"RxEditTableViewController",
         ]
     }
     
