@@ -62,6 +62,12 @@
 		34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D423712064A96900408E6B /* FutureTableViewController.xib */; };
 		34D619A3207AFE9800A3E906 /* RxEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619A1207AFE9800A3E906 /* RxEditTableViewController.swift */; };
 		34D619A4207AFE9800A3E906 /* RxEditTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D619A2207AFE9800A3E906 /* RxEditTableViewController.xib */; };
+		34D619EC207C4C4F00A3E906 /* RxDiffTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619EB207C4C4F00A3E906 /* RxDiffTableViewController.swift */; };
+		34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619ED207C536300A3E906 /* RxSecTableViewController.swift */; };
+		34D619F0207C536300A3E906 /* RxSecTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D619EE207C536300A3E906 /* RxSecTableViewController.xib */; };
+		34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */; };
+		34D619F5207C557A00A3E906 /* RxCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D619F3207C557A00A3E906 /* RxCollectionViewController.xib */; };
+		34D619F7207C55E400A3E906 /* RxCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619F6207C55E400A3E906 /* RxCollectionCell.swift */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
@@ -161,6 +167,12 @@
 		34D423712064A96900408E6B /* FutureTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureTableViewController.xib; sourceTree = "<group>"; };
 		34D619A1207AFE9800A3E906 /* RxEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxEditTableViewController.swift; sourceTree = "<group>"; };
 		34D619A2207AFE9800A3E906 /* RxEditTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxEditTableViewController.xib; sourceTree = "<group>"; };
+		34D619EB207C4C4F00A3E906 /* RxDiffTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDiffTableViewController.swift; sourceTree = "<group>"; };
+		34D619ED207C536300A3E906 /* RxSecTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSecTableViewController.swift; sourceTree = "<group>"; };
+		34D619EE207C536300A3E906 /* RxSecTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSecTableViewController.xib; sourceTree = "<group>"; };
+		34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
+		34D619F3207C557A00A3E906 /* RxCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCollectionViewController.xib; sourceTree = "<group>"; };
+		34D619F6207C55E400A3E906 /* RxCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionCell.swift; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
@@ -275,6 +287,7 @@
 				348F47A3207315BA008AD4D7 /* GestureRecognizer */,
 				348F47A820731710008AD4D7 /* DatePicke */,
 				348F47C0207468AB008AD4D7 /* RxTableView */,
+				34D619F1207C555800A3E906 /* RxCollectionView */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -384,6 +397,9 @@
 				348F481E2079B5CB008AD4D7 /* RxSearchTableViewController.xib */,
 				34D619A1207AFE9800A3E906 /* RxEditTableViewController.swift */,
 				34D619A2207AFE9800A3E906 /* RxEditTableViewController.xib */,
+				34D619EB207C4C4F00A3E906 /* RxDiffTableViewController.swift */,
+				34D619ED207C536300A3E906 /* RxSecTableViewController.swift */,
+				34D619EE207C536300A3E906 /* RxSecTableViewController.xib */,
 			);
 			path = RxTableView;
 			sourceTree = "<group>";
@@ -425,6 +441,16 @@
 				34D423712064A96900408E6B /* FutureTableViewController.xib */,
 			);
 			path = Future;
+			sourceTree = "<group>";
+		};
+		34D619F1207C555800A3E906 /* RxCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */,
+				34D619F3207C557A00A3E906 /* RxCollectionViewController.xib */,
+				34D619F6207C55E400A3E906 /* RxCollectionCell.swift */,
+			);
+			path = RxCollectionView;
 			sourceTree = "<group>";
 		};
 		34DFD98E2068A420003FEC90 /* TransformingObservables */ = {
@@ -650,8 +676,10 @@
 				34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */,
 				348F47C4207468F0008AD4D7 /* RxTableViewController.xib in Resources */,
 				348F48122079AE0D008AD4D7 /* RxCustomTableViewController.xib in Resources */,
+				34D619F0207C536300A3E906 /* RxSecTableViewController.xib in Resources */,
 				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
 				348F47A7207315E4008AD4D7 /* GestureRecognizerViewController.xib in Resources */,
+				34D619F5207C557A00A3E906 /* RxCollectionViewController.xib in Resources */,
 				348F481C2079B1E6008AD4D7 /* RxDataTableViewController.xib in Resources */,
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
@@ -852,11 +880,14 @@
 				348F46492071C2DD008AD4D7 /* ActivityIndicatorViewController.swift in Sources */,
 				34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */,
 				348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */,
+				34D619F7207C55E400A3E906 /* RxCollectionCell.swift in Sources */,
 				34E93D3E206DE3DC00A89512 /* RxCocoaUIButtonViewController.swift in Sources */,
 				34435F0C20689B0400321F75 /* BingAttributesViewController.swift in Sources */,
 				34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */,
 				348F47AB20731727008AD4D7 /* DatePickerViewController.swift in Sources */,
 				342D083D2069E052008D0F8D /* MathematicalAggregateViewController.swift in Sources */,
+				34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */,
+				34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */,
 				342D08392069DE48008D0F8D /* CombiningObservablesViewController.swift in Sources */,
 				348F479F2073133B008AD4D7 /* UserViewModel.swift in Sources */,
 				348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */,
@@ -864,6 +895,7 @@
 				348F481F2079B5CB008AD4D7 /* RxSearchTableViewController.swift in Sources */,
 				34637D8A20689F98002AA54C /* SubjectsViewController.swift in Sources */,
 				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
+				34D619EC207C4C4F00A3E906 /* RxDiffTableViewController.swift in Sources */,
 				34E93D32206DDA5300A89512 /* RxCocoaUITextFileViewController.swift in Sources */,
 				342D08422069E219008D0F8D /* ConnectableViewController.swift in Sources */,
 				348F47AF20731831008AD4D7 /* TimeDatePickerViewController.swift in Sources */,

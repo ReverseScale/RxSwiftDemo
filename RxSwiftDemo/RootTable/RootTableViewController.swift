@@ -31,16 +31,38 @@ class RootTableViewController: UIViewController {
 
     func createData() {
         arrayList = [
-            ["Music 列表演示","RxMusic 列表演示"],
+            ["Music 列表演示",
+             "RxMusic 列表演示"],
             ["RxSwift 基本语法"],
-            ["RxSwift Bind","Bing Attributes"],
+            ["RxSwift Bind",
+             "Bing Attributes"],
             ["Subjects"],
-            ["Transforming","ConditionalBoolean","Combining","MathematicalAggregate"],
+            ["Transforming",
+             "ConditionalBoolean",
+             "Combining",
+             "MathematicalAggregate"],
             ["Connectable"],
-            ["ErrorHandling","Debug"],
-            ["RxCocoaTraits","RxCocoaUI","RxCocoaUITextFile","RxCocoaUIButton","RxActivityIndicator"],
-            ["RxOperator","RxGestureRecognizer","DatePicker","TimeDatePicker"],
-            ["RxTableView","RxCustomTableView","RxDataTableView","RxSearchTableView","RxEditTableView"],
+            ["ErrorHandling",
+             "Debug"],
+            ["RxCocoaTraits",
+             "RxCocoaUI",
+             "RxCocoaUITextFile",
+             "RxCocoaUIButton",
+             "RxActivityIndicator"],
+            ["RxOperator",
+             "RxGestureRecognizer",
+             "DatePicker",
+             "TimeDatePicker"],
+            ["RxTableView",
+             "RxCustomTableView",
+             "RxDataTableView",
+             "RxSearchTableView",
+             "RxEditTableView",
+//             "RxDiffTableView",
+             "RxSecTableView",
+            ],
+            ["RxCollectionView",
+            ],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -70,6 +92,9 @@ class RootTableViewController: UIViewController {
             "RxDataTableView":"列表数据刷新",
             "RxSearchTableView":"搜索列表",
             "RxEditTableView":"编辑表格",
+            "RxDiffTableView":"不同样式表格",
+            "RxSecTableView":"自定义表头列表",
+            "RxCollectionView":"卡片布局",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -99,6 +124,9 @@ class RootTableViewController: UIViewController {
             "RxDataTableView":"",
             "RxSearchTableView":"",
             "RxEditTableView":"",
+            "RxDiffTableView":"",
+            "RxSecTableView":"",
+            "RxCollectionView":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -129,6 +157,9 @@ class RootTableViewController: UIViewController {
             "RxDataTableView":"RxDataTableViewController",
             "RxSearchTableView":"RxSearchTableViewController",
             "RxEditTableView":"RxEditTableViewController",
+            "RxDiffTableView":"RxDiffTableViewController",
+            "RxSecTableView":"RxSecTableViewController",
+            "RxCollectionView":"RxCollectionViewController",
         ]
     }
     
