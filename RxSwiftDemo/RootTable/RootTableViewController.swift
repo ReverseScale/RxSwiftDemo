@@ -64,6 +64,7 @@ class RootTableViewController: UIViewController {
             ["RxCollectionView",
              "RxSectionCollectionView",
              "RxCollectionUpdateView",
+             "RxCollectionChageView",
             ],
         ]
         titleDic = [
@@ -99,6 +100,7 @@ class RootTableViewController: UIViewController {
             "RxCollectionView":"卡片布局",
             "RxSectionCollectionView":"标题头卡片布局",
             "RxCollectionUpdateView":"带更新的卡片布局",
+            "RxCollectionChageView":"变化的卡片布局",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -133,6 +135,7 @@ class RootTableViewController: UIViewController {
             "RxCollectionView":"",
             "RxSectionCollectionView":"",
             "RxCollectionUpdateView":"",
+            "RxCollectionChageView":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -168,6 +171,7 @@ class RootTableViewController: UIViewController {
             "RxCollectionView":"RxCollectionViewController",
             "RxSectionCollectionView":"RxSectionCollectionViewController",
             "RxCollectionUpdateView":"RxCollectionUpdateViewController",
+            "RxCollectionChageView":"RxCollectionChageViewController",
         ]
     }
     

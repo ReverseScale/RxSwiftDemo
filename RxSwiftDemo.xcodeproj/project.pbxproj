@@ -70,6 +70,7 @@
 		34D61A37207D9C9200A3E906 /* RxCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A36207D9C9200A3E906 /* RxCollectionHeaderCell.swift */; };
 		34D61A39207D9D7C00A3E906 /* RxSectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A38207D9D7C00A3E906 /* RxSectionCollectionViewController.swift */; };
 		34D61A3B207DA03300A3E906 /* RxCollectionUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A3A207DA03300A3E906 /* RxCollectionUpdateViewController.swift */; };
+		34D61A3E207DA48800A3E906 /* RxCollectionChageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A3D207DA48800A3E906 /* RxCollectionChageViewController.swift */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
@@ -177,6 +178,7 @@
 		34D61A36207D9C9200A3E906 /* RxCollectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionHeaderCell.swift; sourceTree = "<group>"; };
 		34D61A38207D9D7C00A3E906 /* RxSectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSectionCollectionViewController.swift; sourceTree = "<group>"; };
 		34D61A3A207DA03300A3E906 /* RxCollectionUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionUpdateViewController.swift; sourceTree = "<group>"; };
+		34D61A3D207DA48800A3E906 /* RxCollectionChageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionChageViewController.swift; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
@@ -454,6 +456,7 @@
 				34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */,
 				34D61A38207D9D7C00A3E906 /* RxSectionCollectionViewController.swift */,
 				34D61A3A207DA03300A3E906 /* RxCollectionUpdateViewController.swift */,
+				34D61A3D207DA48800A3E906 /* RxCollectionChageViewController.swift */,
 			);
 			path = RxCollectionView;
 			sourceTree = "<group>";
@@ -903,6 +906,7 @@
 				34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */,
 				34D61A37207D9C9200A3E906 /* RxCollectionHeaderCell.swift in Sources */,
 				342D08392069DE48008D0F8D /* CombiningObservablesViewController.swift in Sources */,
+				34D61A3E207DA48800A3E906 /* RxCollectionChageViewController.swift in Sources */,
 				348F479F2073133B008AD4D7 /* UserViewModel.swift in Sources */,
 				348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */,
 				34E93D2E206DD66100A89512 /* RxCocoaUIViewController.swift in Sources */,
