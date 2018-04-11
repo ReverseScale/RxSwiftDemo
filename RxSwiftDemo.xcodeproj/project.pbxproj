@@ -66,8 +66,10 @@
 		34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619ED207C536300A3E906 /* RxSecTableViewController.swift */; };
 		34D619F0207C536300A3E906 /* RxSecTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D619EE207C536300A3E906 /* RxSecTableViewController.xib */; };
 		34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */; };
-		34D619F5207C557A00A3E906 /* RxCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D619F3207C557A00A3E906 /* RxCollectionViewController.xib */; };
 		34D619F7207C55E400A3E906 /* RxCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D619F6207C55E400A3E906 /* RxCollectionCell.swift */; };
+		34D61A37207D9C9200A3E906 /* RxCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A36207D9C9200A3E906 /* RxCollectionHeaderCell.swift */; };
+		34D61A39207D9D7C00A3E906 /* RxSectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A38207D9D7C00A3E906 /* RxSectionCollectionViewController.swift */; };
+		34D61A3B207DA03300A3E906 /* RxCollectionUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A3A207DA03300A3E906 /* RxCollectionUpdateViewController.swift */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
@@ -171,8 +173,10 @@
 		34D619ED207C536300A3E906 /* RxSecTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSecTableViewController.swift; sourceTree = "<group>"; };
 		34D619EE207C536300A3E906 /* RxSecTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSecTableViewController.xib; sourceTree = "<group>"; };
 		34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionViewController.swift; sourceTree = "<group>"; };
-		34D619F3207C557A00A3E906 /* RxCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCollectionViewController.xib; sourceTree = "<group>"; };
 		34D619F6207C55E400A3E906 /* RxCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionCell.swift; sourceTree = "<group>"; };
+		34D61A36207D9C9200A3E906 /* RxCollectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionHeaderCell.swift; sourceTree = "<group>"; };
+		34D61A38207D9D7C00A3E906 /* RxSectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSectionCollectionViewController.swift; sourceTree = "<group>"; };
+		34D61A3A207DA03300A3E906 /* RxCollectionUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCollectionUpdateViewController.swift; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
@@ -447,8 +451,10 @@
 			isa = PBXGroup;
 			children = (
 				34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */,
-				34D619F3207C557A00A3E906 /* RxCollectionViewController.xib */,
 				34D619F6207C55E400A3E906 /* RxCollectionCell.swift */,
+				34D61A38207D9D7C00A3E906 /* RxSectionCollectionViewController.swift */,
+				34D61A36207D9C9200A3E906 /* RxCollectionHeaderCell.swift */,
+				34D61A3A207DA03300A3E906 /* RxCollectionUpdateViewController.swift */,
 			);
 			path = RxCollectionView;
 			sourceTree = "<group>";
@@ -679,7 +685,6 @@
 				34D619F0207C536300A3E906 /* RxSecTableViewController.xib in Resources */,
 				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
 				348F47A7207315E4008AD4D7 /* GestureRecognizerViewController.xib in Resources */,
-				34D619F5207C557A00A3E906 /* RxCollectionViewController.xib in Resources */,
 				348F481C2079B1E6008AD4D7 /* RxDataTableViewController.xib in Resources */,
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
@@ -888,10 +893,12 @@
 				342D083D2069E052008D0F8D /* MathematicalAggregateViewController.swift in Sources */,
 				34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */,
 				34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */,
+				34D61A37207D9C9200A3E906 /* RxCollectionHeaderCell.swift in Sources */,
 				342D08392069DE48008D0F8D /* CombiningObservablesViewController.swift in Sources */,
 				348F479F2073133B008AD4D7 /* UserViewModel.swift in Sources */,
 				348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */,
 				34E93D2E206DD66100A89512 /* RxCocoaUIViewController.swift in Sources */,
+				34D61A3B207DA03300A3E906 /* RxCollectionUpdateViewController.swift in Sources */,
 				348F481F2079B5CB008AD4D7 /* RxSearchTableViewController.swift in Sources */,
 				34637D8A20689F98002AA54C /* SubjectsViewController.swift in Sources */,
 				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
@@ -902,6 +909,7 @@
 				348F479C20731314008AD4D7 /* RxOperatorViewController.swift in Sources */,
 				348F47A2207314FC008AD4D7 /* Operators.swift in Sources */,
 				348F47A6207315E4008AD4D7 /* GestureRecognizerViewController.swift in Sources */,
+				34D61A39207D9D7C00A3E906 /* RxSectionCollectionViewController.swift in Sources */,
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
 				348F47C3207468F0008AD4D7 /* RxTableViewController.swift in Sources */,
