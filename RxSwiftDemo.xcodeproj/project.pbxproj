@@ -450,13 +450,21 @@
 		34D619F1207C555800A3E906 /* RxCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				34D61A3C207DA3EB00A3E906 /* Cell */,
 				34D619F2207C557A00A3E906 /* RxCollectionViewController.swift */,
-				34D619F6207C55E400A3E906 /* RxCollectionCell.swift */,
 				34D61A38207D9D7C00A3E906 /* RxSectionCollectionViewController.swift */,
-				34D61A36207D9C9200A3E906 /* RxCollectionHeaderCell.swift */,
 				34D61A3A207DA03300A3E906 /* RxCollectionUpdateViewController.swift */,
 			);
 			path = RxCollectionView;
+			sourceTree = "<group>";
+		};
+		34D61A3C207DA3EB00A3E906 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				34D619F6207C55E400A3E906 /* RxCollectionCell.swift */,
+				34D61A36207D9C9200A3E906 /* RxCollectionHeaderCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		34DFD98E2068A420003FEC90 /* TransformingObservables */ = {

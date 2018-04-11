@@ -63,6 +63,7 @@ class RootTableViewController: UIViewController {
             ],
             ["RxCollectionView",
              "RxSectionCollectionView",
+             "RxCollectionUpdateView",
             ],
         ]
         titleDic = [
@@ -97,6 +98,7 @@ class RootTableViewController: UIViewController {
             "RxSecTableView":"自定义表头列表",
             "RxCollectionView":"卡片布局",
             "RxSectionCollectionView":"标题头卡片布局",
+            "RxCollectionUpdateView":"带更新的卡片布局",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -130,6 +132,7 @@ class RootTableViewController: UIViewController {
             "RxSecTableView":"",
             "RxCollectionView":"",
             "RxSectionCollectionView":"",
+            "RxCollectionUpdateView":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -164,7 +167,7 @@ class RootTableViewController: UIViewController {
             "RxSecTableView":"RxSecTableViewController",
             "RxCollectionView":"RxCollectionViewController",
             "RxSectionCollectionView":"RxSectionCollectionViewController",
-            "":"RxCollectionUpdateViewController",
+            "RxCollectionUpdateView":"RxCollectionUpdateViewController",
         ]
     }
     
