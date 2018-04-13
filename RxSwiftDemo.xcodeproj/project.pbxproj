@@ -82,6 +82,8 @@
 		34D61B5D2080A7F800A3E906 /* RxObjectMapperError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B5C2080A7F800A3E906 /* RxObjectMapperError.swift */; };
 		34D61B5F2080A95500A3E906 /* RxMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B5E2080A95500A3E906 /* RxMusicModel.swift */; };
 		34D61B612080AA7E00A3E906 /* RxSessionModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */; };
+		34D61B662080B07500A3E906 /* RxAlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B642080B07500A3E906 /* RxAlamofireViewController.swift */; };
+		34D61B672080B07500A3E906 /* RxAlamofireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B652080B07500A3E906 /* RxAlamofireViewController.xib */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
@@ -201,6 +203,8 @@
 		34D61B5C2080A7F800A3E906 /* RxObjectMapperError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxObjectMapperError.swift; sourceTree = "<group>"; };
 		34D61B5E2080A95500A3E906 /* RxMusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMusicModel.swift; sourceTree = "<group>"; };
 		34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSessionModelViewController.swift; sourceTree = "<group>"; };
+		34D61B642080B07500A3E906 /* RxAlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireViewController.swift; sourceTree = "<group>"; };
+		34D61B652080B07500A3E906 /* RxAlamofireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxAlamofireViewController.xib; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
@@ -523,6 +527,8 @@
 				34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */,
 				34D61B5C2080A7F800A3E906 /* RxObjectMapperError.swift */,
 				34D61B5E2080A95500A3E906 /* RxMusicModel.swift */,
+				34D61B642080B07500A3E906 /* RxAlamofireViewController.swift */,
+				34D61B652080B07500A3E906 /* RxAlamofireViewController.xib */,
 			);
 			path = RxURLSession;
 			sourceTree = "<group>";
@@ -738,6 +744,7 @@
 				348CADAE2064D14E00C1B674 /* AddIndexViewController.xib in Resources */,
 				348F48202079B5CB008AD4D7 /* RxSearchTableViewController.xib in Resources */,
 				34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */,
+				34D61B672080B07500A3E906 /* RxAlamofireViewController.xib in Resources */,
 				34D423732064A96900408E6B /* FutureTableViewController.xib in Resources */,
 				34E93D3F206DE3DC00A89512 /* RxCocoaUIButtonViewController.xib in Resources */,
 				34F8EC0E206B309C007E048B /* ErrorHandlingViewController.xib in Resources */,
@@ -789,8 +796,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -798,8 +807,10 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -967,6 +978,7 @@
 				342D083D2069E052008D0F8D /* MathematicalAggregateViewController.swift in Sources */,
 				34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */,
 				34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */,
+				34D61B662080B07500A3E906 /* RxAlamofireViewController.swift in Sources */,
 				34D61A37207D9C9200A3E906 /* RxCollectionHeaderCell.swift in Sources */,
 				34D61B582080A40300A3E906 /* RxURLSessionHandelViewController.swift in Sources */,
 				342D08392069DE48008D0F8D /* CombiningObservablesViewController.swift in Sources */,

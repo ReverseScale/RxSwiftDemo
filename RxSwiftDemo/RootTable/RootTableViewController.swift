@@ -74,6 +74,7 @@ class RootTableViewController: UIViewController {
              "RxURLSessionHandel",
              "RxSessionTable",
              "RxSessionModel",
+//             "RxAlamofire",
             ],
         ]
         titleDic = [
@@ -117,6 +118,7 @@ class RootTableViewController: UIViewController {
             "RxURLSessionHandel":"Rx 的 URLSession 处理",
             "RxSessionTable":"RxURLSession 请求列表",
             "RxSessionModel":"RxSession 映射",
+            "RxAlamofire":"RxAlamofire 使用",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -159,6 +161,7 @@ class RootTableViewController: UIViewController {
             "RxURLSessionHandel":"",
             "RxSessionTable":"",
             "RxSessionModel":"",
+            "RxAlamofire":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -202,6 +205,7 @@ class RootTableViewController: UIViewController {
             "RxURLSessionHandel":"RxURLSessionHandelViewController",
             "RxSessionTable":"RxSessionTableViewController",
             "RxSessionModel":"RxSessionModelViewController",
+            "RxAlamofire":"RxAlamofireViewController",
         ]
     }
     
