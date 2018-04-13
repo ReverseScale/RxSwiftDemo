@@ -71,6 +71,9 @@ class RootTableViewController: UIViewController {
             ],
             ["RxSwiftARCAbout",
              "RxURLSession",
+             "RxURLSessionHandel",
+             "RxSessionTable",
+             "RxSessionModel",
             ],
         ]
         titleDic = [
@@ -111,6 +114,9 @@ class RootTableViewController: UIViewController {
             "RxPickerstyleView":"自定义样式选项卡",
             "RxSwiftARCAbout":"ARC 下循环引用示例",
             "RxURLSession":"Rx 的 URLSession",
+            "RxURLSessionHandel":"Rx 的 URLSession 处理",
+            "RxSessionTable":"RxURLSession 请求列表",
+            "RxSessionModel":"RxSession 映射",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -150,6 +156,9 @@ class RootTableViewController: UIViewController {
             "RxPickerstyleView":"",
             "RxSwiftARCAbout":"",
             "RxURLSession":"",
+            "RxURLSessionHandel":"",
+            "RxSessionTable":"",
+            "RxSessionModel":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -190,6 +199,9 @@ class RootTableViewController: UIViewController {
             "RxPickerstyleView":"RxPickerstyleViewController",
             "RxSwiftARCAbout":"RxSwiftARCDemoViewController",
             "RxURLSession":"RxURLSessionViewController",
+            "RxURLSessionHandel":"RxURLSessionHandelViewController",
+            "RxSessionTable":"RxSessionTableViewController",
+            "RxSessionModel":"RxSessionModelViewController",
         ]
     }
     

@@ -77,6 +77,11 @@
 		34D61A94208041C900A3E906 /* RxSwiftARCDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D61A92208041C900A3E906 /* RxSwiftARCDemoViewController.xib */; };
 		34D61A982080479C00A3E906 /* RxURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61A962080479C00A3E906 /* RxURLSessionViewController.swift */; };
 		34D61A992080479C00A3E906 /* RxURLSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D61A972080479C00A3E906 /* RxURLSessionViewController.xib */; };
+		34D61B582080A40300A3E906 /* RxURLSessionHandelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B562080A40300A3E906 /* RxURLSessionHandelViewController.swift */; };
+		34D61B5B2080A68800A3E906 /* RxSessionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B5A2080A68800A3E906 /* RxSessionTableViewController.swift */; };
+		34D61B5D2080A7F800A3E906 /* RxObjectMapperError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B5C2080A7F800A3E906 /* RxObjectMapperError.swift */; };
+		34D61B5F2080A95500A3E906 /* RxMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B5E2080A95500A3E906 /* RxMusicModel.swift */; };
+		34D61B612080AA7E00A3E906 /* RxSessionModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
@@ -191,6 +196,11 @@
 		34D61A92208041C900A3E906 /* RxSwiftARCDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftARCDemoViewController.xib; sourceTree = "<group>"; };
 		34D61A962080479C00A3E906 /* RxURLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxURLSessionViewController.swift; sourceTree = "<group>"; };
 		34D61A972080479C00A3E906 /* RxURLSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxURLSessionViewController.xib; sourceTree = "<group>"; };
+		34D61B562080A40300A3E906 /* RxURLSessionHandelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxURLSessionHandelViewController.swift; sourceTree = "<group>"; };
+		34D61B5A2080A68800A3E906 /* RxSessionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSessionTableViewController.swift; sourceTree = "<group>"; };
+		34D61B5C2080A7F800A3E906 /* RxObjectMapperError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxObjectMapperError.swift; sourceTree = "<group>"; };
+		34D61B5E2080A95500A3E906 /* RxMusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMusicModel.swift; sourceTree = "<group>"; };
+		34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSessionModelViewController.swift; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
@@ -508,6 +518,11 @@
 			children = (
 				34D61A962080479C00A3E906 /* RxURLSessionViewController.swift */,
 				34D61A972080479C00A3E906 /* RxURLSessionViewController.xib */,
+				34D61B562080A40300A3E906 /* RxURLSessionHandelViewController.swift */,
+				34D61B5A2080A68800A3E906 /* RxSessionTableViewController.swift */,
+				34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */,
+				34D61B5C2080A7F800A3E906 /* RxObjectMapperError.swift */,
+				34D61B5E2080A95500A3E906 /* RxMusicModel.swift */,
 			);
 			path = RxURLSession;
 			sourceTree = "<group>";
@@ -775,6 +790,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -783,6 +799,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -938,7 +955,9 @@
 			files = (
 				34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */,
 				348F46492071C2DD008AD4D7 /* ActivityIndicatorViewController.swift in Sources */,
+				34D61B5D2080A7F800A3E906 /* RxObjectMapperError.swift in Sources */,
 				34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */,
+				34D61B5B2080A68800A3E906 /* RxSessionTableViewController.swift in Sources */,
 				348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */,
 				34D619F7207C55E400A3E906 /* RxCollectionCell.swift in Sources */,
 				34E93D3E206DE3DC00A89512 /* RxCocoaUIButtonViewController.swift in Sources */,
@@ -949,13 +968,16 @@
 				34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */,
 				34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */,
 				34D61A37207D9C9200A3E906 /* RxCollectionHeaderCell.swift in Sources */,
+				34D61B582080A40300A3E906 /* RxURLSessionHandelViewController.swift in Sources */,
 				342D08392069DE48008D0F8D /* CombiningObservablesViewController.swift in Sources */,
 				34D61A3E207DA48800A3E906 /* RxCollectionChageViewController.swift in Sources */,
 				348F479F2073133B008AD4D7 /* UserViewModel.swift in Sources */,
+				34D61B612080AA7E00A3E906 /* RxSessionModelViewController.swift in Sources */,
 				348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */,
 				34E93D2E206DD66100A89512 /* RxCocoaUIViewController.swift in Sources */,
 				34D61A49207EFB2900A3E906 /* RxPickerViewController.swift in Sources */,
 				34D61A3B207DA03300A3E906 /* RxCollectionUpdateViewController.swift in Sources */,
+				34D61B5F2080A95500A3E906 /* RxMusicModel.swift in Sources */,
 				348F481F2079B5CB008AD4D7 /* RxSearchTableViewController.swift in Sources */,
 				34637D8A20689F98002AA54C /* SubjectsViewController.swift in Sources */,
 				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
