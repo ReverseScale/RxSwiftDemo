@@ -69,6 +69,9 @@ class RootTableViewController: UIViewController {
             ["RxPickerView",
              "RxPickerstyleView",
             ],
+            ["RxSwiftARCAbout",
+             "RxURLSession",
+            ],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -106,6 +109,8 @@ class RootTableViewController: UIViewController {
             "RxCollectionChageView":"变化的卡片布局",
             "RxPickerView":"选项卡",
             "RxPickerstyleView":"自定义样式选项卡",
+            "RxSwiftARCAbout":"ARC 下循环引用示例",
+            "RxURLSession":"Rx 的 URLSession",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -143,6 +148,8 @@ class RootTableViewController: UIViewController {
             "RxCollectionChageView":"",
             "RxPickerView":"",
             "RxPickerstyleView":"",
+            "RxSwiftARCAbout":"",
+            "RxURLSession":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -181,6 +188,8 @@ class RootTableViewController: UIViewController {
             "RxCollectionChageView":"RxCollectionChageViewController",
             "RxPickerView":"RxPickerViewController",
             "RxPickerstyleView":"RxPickerstyleViewController",
+            "RxSwiftARCAbout":"RxSwiftARCDemoViewController",
+            "RxURLSession":"RxURLSessionViewController",
         ]
     }
     
