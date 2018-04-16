@@ -69,6 +69,8 @@ class RxEditTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxEditTable"
+        
         createItem()
         
         //创建表格视图

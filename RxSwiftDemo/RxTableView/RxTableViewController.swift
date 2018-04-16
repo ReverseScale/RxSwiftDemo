@@ -18,6 +18,8 @@ class RxTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "RxTable"
 
         createTableView()
         

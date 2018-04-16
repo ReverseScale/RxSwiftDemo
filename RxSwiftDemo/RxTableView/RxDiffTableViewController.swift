@@ -20,6 +20,7 @@ class RxDiffTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxDiffTable"
         
         //初始化数据
         let sections = Observable.just([

@@ -22,6 +22,8 @@ class RxURLSessionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "RxURLSession"
 
         httpsTestWithResponse()
         

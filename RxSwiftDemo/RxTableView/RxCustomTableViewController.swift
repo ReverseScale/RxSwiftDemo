@@ -19,6 +19,8 @@ class RxCustomTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxCustomTable"
+        
         //创建表格视图
         self.tableView = UITableView(frame: self.view.frame, style:.plain)
         //创建一个重用的单元格

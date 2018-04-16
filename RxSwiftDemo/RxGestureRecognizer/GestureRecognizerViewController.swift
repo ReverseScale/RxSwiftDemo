@@ -15,6 +15,8 @@ class GestureRecognizerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Gesture Recognizer"
 
 //        funcOne()
         

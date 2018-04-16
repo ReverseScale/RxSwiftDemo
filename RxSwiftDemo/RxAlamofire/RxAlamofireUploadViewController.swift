@@ -17,6 +17,8 @@ class RxAlamofireUploadViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "RxAUpload"
 
         alamofireUpload()
     }

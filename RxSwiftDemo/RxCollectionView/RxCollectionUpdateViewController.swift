@@ -27,6 +27,8 @@ class RxCollectionUpdateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxUpdate"
+        
         createItem();
         
         //定义布局方式以及单元格大小

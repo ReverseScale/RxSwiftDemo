@@ -20,6 +20,8 @@ class RxCollectionChageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxChage"
+        
         //定义布局方式
         let flowLayout = UICollectionViewFlowLayout()
         

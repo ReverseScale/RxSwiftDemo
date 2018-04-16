@@ -27,6 +27,8 @@ class TimeDatePickerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Time Picker"
 
         createTimerData()
     }

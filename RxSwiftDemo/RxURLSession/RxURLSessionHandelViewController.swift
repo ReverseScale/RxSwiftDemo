@@ -16,6 +16,8 @@ class RxURLSessionHandelViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "RxURLHandel"
 
         testURLSessionHandel()
         testURLSessionMapHandel()

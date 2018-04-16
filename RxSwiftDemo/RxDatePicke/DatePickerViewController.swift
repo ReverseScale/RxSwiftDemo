@@ -26,6 +26,9 @@ class DatePickerViewController: UIViewController {
     let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
+        
+        title = "Date Picker"
+        
         datePicker.rx.date
             .map { [weak self] in
                 "当前选择时间: " + self!.dateFormatter.string(from: $0)

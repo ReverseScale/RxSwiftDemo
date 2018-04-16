@@ -26,6 +26,12 @@ class RxSearchTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxSearchTable"
+
+        searchAbout()
+    }
+    
+    func searchAbout() {
         refreshButton = UIBarButtonItem(title: "refresh", style: UIBarButtonItemStyle.plain, target: self, action: nil)
         
         self.navigationItem.rightBarButtonItem = refreshButton
@@ -62,7 +68,6 @@ class RxSearchTableViewController: UIViewController {
         randomResult
             .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

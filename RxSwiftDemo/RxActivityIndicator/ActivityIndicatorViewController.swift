@@ -25,6 +25,8 @@ class ActivityIndicatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Cocoa Activity"
+
         createSwitch()
         
         createSegmented()

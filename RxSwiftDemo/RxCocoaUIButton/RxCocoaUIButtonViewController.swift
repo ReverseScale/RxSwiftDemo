@@ -25,6 +25,8 @@ class RxCocoaUIButtonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Cocoa UIButton"
+
         createButton()
         
         titleBing()

@@ -18,6 +18,8 @@ class RxSessionModelViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "RxSession"
 
         //创建表格视图
         self.tableView = UITableView(frame: self.view.frame, style:.plain)

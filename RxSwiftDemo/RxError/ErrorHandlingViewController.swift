@@ -20,6 +20,8 @@ class ErrorHandlingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Error Handling"
+
     }
     @IBAction func catchErrorJustReturnAction(_ sender: Any) {
         createCatchErrorJustReturn()

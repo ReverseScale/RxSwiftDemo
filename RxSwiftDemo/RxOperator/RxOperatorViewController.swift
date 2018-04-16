@@ -21,6 +21,9 @@ class RxOperatorViewController: UIViewController {
     let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
+        
+        title = "RxOperator"
+
 //        handelOperator()
         
         handelRx()

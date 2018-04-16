@@ -15,6 +15,8 @@ class DebugViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Debug"
+
     }
     
     @IBAction func debugAction(_ sender: Any) {

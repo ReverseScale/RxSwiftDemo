@@ -23,6 +23,8 @@ class RxAlamofireViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxAlamofire"
+        
         //创建URL对象
         let urlString = "https://www.douban.com/j/app/radio/channels"
         let url = URL(string:urlString)!

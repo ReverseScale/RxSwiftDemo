@@ -19,6 +19,8 @@ class RxCollectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxCollection"
+        
         //定义布局方式以及单元格大小
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.itemSize = CGSize(width: 100, height: 70)

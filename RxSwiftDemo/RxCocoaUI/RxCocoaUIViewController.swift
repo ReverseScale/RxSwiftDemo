@@ -16,6 +16,8 @@ class RxCocoaUIViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "RxCocoa UI"
 
         createText()
         

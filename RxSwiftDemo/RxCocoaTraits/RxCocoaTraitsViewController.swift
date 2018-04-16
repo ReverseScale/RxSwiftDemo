@@ -50,6 +50,8 @@ class RxCocoaTraitsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Cocoa Traits"
 
         //将textField输入的文字绑定到label上
         textField.rx.text

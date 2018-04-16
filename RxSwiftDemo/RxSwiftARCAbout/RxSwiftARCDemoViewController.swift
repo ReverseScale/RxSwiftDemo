@@ -21,6 +21,8 @@ class RxSwiftARCDemoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxARCDemo"
+        
 //        errorTest()
 //        weakSelfTest()
         unownedSelfTest()

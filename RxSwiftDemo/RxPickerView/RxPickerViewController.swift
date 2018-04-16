@@ -30,6 +30,8 @@ class RxPickerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxPicker"
+        
         view.backgroundColor = UIColor.white
         
         //创建pickerView

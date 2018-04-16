@@ -26,6 +26,8 @@ class RxDataTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RxDataTable"
+        
         createItem()
         
         //创建表格视图
