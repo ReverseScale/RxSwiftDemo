@@ -11,10 +11,12 @@ RxCocoa：是基于 RxSwift 针对于 iOS 开发的一个库，它通过 Extensi
 ```Swift
 import RxSwift
 import RxCocoa
-```
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-3-29/15807650.jpg)
-来源：ReactiveCocoa和RXSwift速查表
+//附带的使用演示
+import RxAlamofire
+import ObjectMapper
+
+```
 
 ## 🎨 测试 UI 样式
 
@@ -32,6 +34,7 @@ import RxCocoa
 * 有了可观察序列，我们还需要有一个 Observer（订阅者）来订阅它，这样这个订阅者才能收到 Observable<T> 不时发出的 Event。
 
 #### Event
+
 查看 RxSwift 源码可以发现，事件 Event 的定义如下：
 ```Swift
 public enum Event<Element> {
@@ -45,7 +48,8 @@ case error(Swift.Error)
 case completed
 ```
 
-#### Observable 与 Sequence比较
+#### Observable 与 Sequence 比较
+
 （1）为更好地理解，我们可以把每一个 Observable 的实例想象成于一个 Swift 中的 Sequence：
 
 * 即一个 Observable（ObservableType）相当于一个序列 Sequence（SequenceType）。
@@ -60,6 +64,7 @@ case completed
 
 
 #### 创建 Observable 序列
+
 1.just() 方法
 
 （1）该方法通过传入一个默认值来初始化。
@@ -146,6 +151,7 @@ let observable = Observable.repeatElement(1)
 （1）该方法创建一个只有当提供的所有的判断条件都为 true 的时候，才会给出动作的 Observable 序列。
 
 （2）下面样例中，两种方法创建的 Observable 序列都是一样的。
+
 ```Swift
 //使用generate()方法
 let observable = Observable.generate(
@@ -215,8 +221,8 @@ print("\(isOdd)", event)
 factory.subscribe { event in
 print("\(isOdd)", event)
 }
-```
 }
+```
 运行结果如下，可以看到我们两次订阅的得到的 Observable 是不一样的。
 
 12.interval() 方法
@@ -224,6 +230,7 @@ print("\(isOdd)", event)
 （1）这个方法创建的 Observable 序列每隔一段设定的时间，会发出一个索引数的元素。而且它会一直发送下去。
 
 （2）下面方法让其每 1 秒发送一次，并且是在主线程（MainScheduler）发送。
+
 ```Swift
 let observable = Observable<Int>.interval(1, scheduler: MainScheduler.instance)
 observable.subscribe { event in
@@ -234,6 +241,7 @@ print(event)
 13.timer() 方法
 
 （1）这个方法有两种用法，一种是创建的 Observable 序列在经过设定的一段时间后，产生唯一的一个元素。
+
 ```Swift
 //5秒种后发出唯一的一个元素0
 let observable = Observable<Int>.timer(5, scheduler: MainScheduler.instance)
