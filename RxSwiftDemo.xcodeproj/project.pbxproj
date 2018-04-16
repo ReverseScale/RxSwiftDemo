@@ -84,6 +84,11 @@
 		34D61B612080AA7E00A3E906 /* RxSessionModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */; };
 		34D61B662080B07500A3E906 /* RxAlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B642080B07500A3E906 /* RxAlamofireViewController.swift */; };
 		34D61B672080B07500A3E906 /* RxAlamofireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B652080B07500A3E906 /* RxAlamofireViewController.xib */; };
+		34D61B6A208448DB00A3E906 /* RxAlamofireUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B68208448DB00A3E906 /* RxAlamofireUploadViewController.swift */; };
+		34D61B6B208448DB00A3E906 /* RxAlamofireUploadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B69208448DB00A3E906 /* RxAlamofireUploadViewController.xib */; };
+		34D61B6E20844ACE00A3E906 /* hangge.zip in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B6D20844ACE00A3E906 /* hangge.zip */; };
+		34D61B7120844BD800A3E906 /* RxAlamofireDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D61B6F20844BD800A3E906 /* RxAlamofireDownloadViewController.swift */; };
+		34D61B7220844BD800A3E906 /* RxAlamofireDownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B7020844BD800A3E906 /* RxAlamofireDownloadViewController.xib */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
@@ -205,6 +210,11 @@
 		34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSessionModelViewController.swift; sourceTree = "<group>"; };
 		34D61B642080B07500A3E906 /* RxAlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireViewController.swift; sourceTree = "<group>"; };
 		34D61B652080B07500A3E906 /* RxAlamofireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxAlamofireViewController.xib; sourceTree = "<group>"; };
+		34D61B68208448DB00A3E906 /* RxAlamofireUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireUploadViewController.swift; sourceTree = "<group>"; };
+		34D61B69208448DB00A3E906 /* RxAlamofireUploadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxAlamofireUploadViewController.xib; sourceTree = "<group>"; };
+		34D61B6D20844ACE00A3E906 /* hangge.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = hangge.zip; sourceTree = "<group>"; };
+		34D61B6F20844BD800A3E906 /* RxAlamofireDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireDownloadViewController.swift; sourceTree = "<group>"; };
+		34D61B7020844BD800A3E906 /* RxAlamofireDownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxAlamofireDownloadViewController.xib; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
@@ -323,6 +333,7 @@
 				34D61A47207EFB0600A3E906 /* RxPickerView */,
 				34D61A90208041A300A3E906 /* RxSwiftARCAbout */,
 				34D61A952080477F00A3E906 /* RxURLSession */,
+				34D61B6C208448F300A3E906 /* RxAlamofire */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				343D89112064985400F96807 /* LaunchScreen.storyboard */,
@@ -382,6 +393,7 @@
 		348F464B2071C740008AD4D7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				34D61B6D20844ACE00A3E906 /* hangge.zip */,
 				348F464E2071C7C8008AD4D7 /* js.png */,
 				348F464D2071C7C8008AD4D7 /* vue.png */,
 			);
@@ -527,10 +539,21 @@
 				34D61B602080AA7E00A3E906 /* RxSessionModelViewController.swift */,
 				34D61B5C2080A7F800A3E906 /* RxObjectMapperError.swift */,
 				34D61B5E2080A95500A3E906 /* RxMusicModel.swift */,
-				34D61B642080B07500A3E906 /* RxAlamofireViewController.swift */,
-				34D61B652080B07500A3E906 /* RxAlamofireViewController.xib */,
 			);
 			path = RxURLSession;
+			sourceTree = "<group>";
+		};
+		34D61B6C208448F300A3E906 /* RxAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				34D61B642080B07500A3E906 /* RxAlamofireViewController.swift */,
+				34D61B652080B07500A3E906 /* RxAlamofireViewController.xib */,
+				34D61B68208448DB00A3E906 /* RxAlamofireUploadViewController.swift */,
+				34D61B69208448DB00A3E906 /* RxAlamofireUploadViewController.xib */,
+				34D61B6F20844BD800A3E906 /* RxAlamofireDownloadViewController.swift */,
+				34D61B7020844BD800A3E906 /* RxAlamofireDownloadViewController.xib */,
+			);
+			path = RxAlamofire;
 			sourceTree = "<group>";
 		};
 		34DFD98E2068A420003FEC90 /* TransformingObservables */ = {
@@ -754,13 +777,16 @@
 				34E93D2F206DD66100A89512 /* RxCocoaUIViewController.xib in Resources */,
 				342D08432069E219008D0F8D /* ConnectableViewController.xib in Resources */,
 				348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */,
+				34D61B6B208448DB00A3E906 /* RxAlamofireUploadViewController.xib in Resources */,
 				342D083E2069E052008D0F8D /* MathematicalAggregateViewController.xib in Resources */,
+				34D61B6E20844ACE00A3E906 /* hangge.zip in Resources */,
 				34435F0D20689B0400321F75 /* BingAttributesViewController.xib in Resources */,
 				348F47C4207468F0008AD4D7 /* RxTableViewController.xib in Resources */,
 				348F48122079AE0D008AD4D7 /* RxCustomTableViewController.xib in Resources */,
 				34D619F0207C536300A3E906 /* RxSecTableViewController.xib in Resources */,
 				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
 				348F47A7207315E4008AD4D7 /* GestureRecognizerViewController.xib in Resources */,
+				34D61B7220844BD800A3E906 /* RxAlamofireDownloadViewController.xib in Resources */,
 				348F481C2079B1E6008AD4D7 /* RxDataTableViewController.xib in Resources */,
 				342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */,
 				34D4235F20649D0600408E6B /* PastTableViewController.xib in Resources */,
@@ -966,6 +992,7 @@
 			files = (
 				34D4236F2064A90E00408E6B /* RxMusicListViewModel.swift in Sources */,
 				348F46492071C2DD008AD4D7 /* ActivityIndicatorViewController.swift in Sources */,
+				34D61B6A208448DB00A3E906 /* RxAlamofireUploadViewController.swift in Sources */,
 				34D61B5D2080A7F800A3E906 /* RxObjectMapperError.swift in Sources */,
 				34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */,
 				34D61B5B2080A68800A3E906 /* RxSessionTableViewController.swift in Sources */,
@@ -1013,6 +1040,7 @@
 				34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */,
 				34F8EC0D206B309C007E048B /* ErrorHandlingViewController.swift in Sources */,
 				343D89092064985400F96807 /* AppDelegate.swift in Sources */,
+				34D61B7120844BD800A3E906 /* RxAlamofireDownloadViewController.swift in Sources */,
 				342D08352069DC01008D0F8D /* ConditionalBooleanViewController.swift in Sources */,
 				34D619A3207AFE9800A3E906 /* RxEditTableViewController.swift in Sources */,
 				34D61A93208041C900A3E906 /* RxSwiftARCDemoViewController.swift in Sources */,

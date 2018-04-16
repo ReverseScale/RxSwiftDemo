@@ -74,7 +74,10 @@ class RootTableViewController: UIViewController {
              "RxURLSessionHandel",
              "RxSessionTable",
              "RxSessionModel",
-//             "RxAlamofire",
+            ],
+            ["RxAlamofire",
+             "RxAlamofireUpload",
+             "RxAlamofireDownload",
             ],
         ]
         titleDic = [
@@ -119,6 +122,8 @@ class RootTableViewController: UIViewController {
             "RxSessionTable":"RxURLSession 请求列表",
             "RxSessionModel":"RxSession 映射",
             "RxAlamofire":"RxAlamofire 使用",
+            "RxAlamofireUpload":"RxAlamofire 上传",
+            "RxAlamofireDownload":"RxAlamofire 下载",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -162,6 +167,8 @@ class RootTableViewController: UIViewController {
             "RxSessionTable":"",
             "RxSessionModel":"",
             "RxAlamofire":"",
+            "RxAlamofireUpload":"",
+            "RxAlamofireDownload":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -206,6 +213,8 @@ class RootTableViewController: UIViewController {
             "RxSessionTable":"RxSessionTableViewController",
             "RxSessionModel":"RxSessionModelViewController",
             "RxAlamofire":"RxAlamofireViewController",
+            "RxAlamofireUpload":"RxAlamofireUploadViewController",
+            "RxAlamofireDownload":"RxAlamofireDownloadViewController",
         ]
     }
     
