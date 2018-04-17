@@ -79,6 +79,8 @@ class RootTableViewController: UIViewController {
              "RxAlamofireUpload",
              "RxAlamofireDownload",
             ],
+            ["RxAlamofireMoya",
+            ],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -124,6 +126,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofire":"RxAlamofire 使用",
             "RxAlamofireUpload":"RxAlamofire 上传",
             "RxAlamofireDownload":"RxAlamofire 下载",
+            "RxAlamofireMoya":"结合 Moya 演示",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -169,6 +172,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofire":"",
             "RxAlamofireUpload":"",
             "RxAlamofireDownload":"",
+            "RxAlamofireMoya":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -215,6 +219,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofire":"RxAlamofireViewController",
             "RxAlamofireUpload":"RxAlamofireUploadViewController",
             "RxAlamofireDownload":"RxAlamofireDownloadViewController",
+            "RxAlamofireMoya":"RxAlamofireMoyaViewController",
         ]
     }
     

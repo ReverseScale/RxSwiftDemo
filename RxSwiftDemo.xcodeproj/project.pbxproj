@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3410520D2085C76200B54D3D /* RxAlamofireMoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410520B2085C76200B54D3D /* RxAlamofireMoyaViewController.swift */; };
+		3410520E2085C76200B54D3D /* RxAlamofireMoyaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3410520C2085C76200B54D3D /* RxAlamofireMoyaViewController.xib */; };
+		341052102085C87100B54D3D /* DouBanAPIMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410520F2085C87100B54D3D /* DouBanAPIMoya.swift */; };
 		342D08352069DC01008D0F8D /* ConditionalBooleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D08332069DC01008D0F8D /* ConditionalBooleanViewController.swift */; };
 		342D08362069DC01008D0F8D /* ConditionalBooleanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342D08342069DC01008D0F8D /* ConditionalBooleanViewController.xib */; };
 		342D08392069DE48008D0F8D /* CombiningObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D08372069DE48008D0F8D /* CombiningObservablesViewController.swift */; };
@@ -128,6 +131,9 @@
 
 /* Begin PBXFileReference section */
 		23B7F636CA5E26B7B8CA98BE /* Pods_RxSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3410520B2085C76200B54D3D /* RxAlamofireMoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireMoyaViewController.swift; sourceTree = "<group>"; };
+		3410520C2085C76200B54D3D /* RxAlamofireMoyaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxAlamofireMoyaViewController.xib; sourceTree = "<group>"; };
+		3410520F2085C87100B54D3D /* DouBanAPIMoya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanAPIMoya.swift; sourceTree = "<group>"; };
 		342D08332069DC01008D0F8D /* ConditionalBooleanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBooleanViewController.swift; sourceTree = "<group>"; };
 		342D08342069DC01008D0F8D /* ConditionalBooleanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConditionalBooleanViewController.xib; sourceTree = "<group>"; };
 		342D08372069DE48008D0F8D /* CombiningObservablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningObservablesViewController.swift; sourceTree = "<group>"; };
@@ -279,6 +285,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3410520A2085C74700B54D3D /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				3410520F2085C87100B54D3D /* DouBanAPIMoya.swift */,
+				3410520B2085C76200B54D3D /* RxAlamofireMoyaViewController.swift */,
+				3410520C2085C76200B54D3D /* RxAlamofireMoyaViewController.xib */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
 		342D083F2069E207008D0F8D /* RxConnectable */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +352,7 @@
 				34D61A90208041A300A3E906 /* RxSwiftARCAbout */,
 				34D61A952080477F00A3E906 /* RxURLSession */,
 				34D61B6C208448F300A3E906 /* RxAlamofire */,
+				3410520A2085C74700B54D3D /* Moya */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				34D61B732084705400A3E906 /* LaunchScreen.storyboard */,
@@ -788,6 +805,7 @@
 				348F48122079AE0D008AD4D7 /* RxCustomTableViewController.xib in Resources */,
 				34D619F0207C536300A3E906 /* RxSecTableViewController.xib in Resources */,
 				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
+				3410520E2085C76200B54D3D /* RxAlamofireMoyaViewController.xib in Resources */,
 				348F47A7207315E4008AD4D7 /* GestureRecognizerViewController.xib in Resources */,
 				34D61B7220844BD800A3E906 /* RxAlamofireDownloadViewController.xib in Resources */,
 				348F481C2079B1E6008AD4D7 /* RxDataTableViewController.xib in Resources */,
@@ -828,7 +846,9 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
@@ -839,7 +859,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
@@ -1031,9 +1053,11 @@
 				342D08422069E219008D0F8D /* ConnectableViewController.swift in Sources */,
 				348F47AF20731831008AD4D7 /* TimeDatePickerViewController.swift in Sources */,
 				348F479C20731314008AD4D7 /* RxOperatorViewController.swift in Sources */,
+				3410520D2085C76200B54D3D /* RxAlamofireMoyaViewController.swift in Sources */,
 				348F47A2207314FC008AD4D7 /* Operators.swift in Sources */,
 				348F47A6207315E4008AD4D7 /* GestureRecognizerViewController.swift in Sources */,
 				34D61A39207D9D7C00A3E906 /* RxSectionCollectionViewController.swift in Sources */,
+				341052102085C87100B54D3D /* DouBanAPIMoya.swift in Sources */,
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
 				348F47C3207468F0008AD4D7 /* RxTableViewController.swift in Sources */,
