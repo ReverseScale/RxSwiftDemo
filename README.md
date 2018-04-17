@@ -6,6 +6,8 @@ RxSwift：它只是基于 Swift 语言的 Rx 标准实现接口库，所以 RxSw
 
 RxCocoa：是基于 RxSwift 针对于 iOS 开发的一个库，它通过 Extension 的方法给原生的比如 UI 控件添加了 Rx 的特性，使得我们更容易订阅和响应这些控件的事件。
 
+## 🎯 安装方法
+
 在需要使用 RxSwift 的地方 import 进来就可以了
 
 ```Swift
@@ -17,6 +19,66 @@ import RxAlamofire
 import ObjectMapper
 
 ```
+## 📄 目录结构
+
+持续更新（倒序）：
+
+* 结合Moya使用1：数据请求
+* 结合RxAlamofire使用4：文件下载
+* 结合RxAlamofire使用3：文件上传
+* 结合RxAlamofire使用2：结果处理、模型转换
+* 结合RxAlamofire使用1：数据请求
+* URLSession的使用2：结果处理、模型转换
+* URLSession的使用1：请求数据
+* [unowned self] 与 [weak self]
+### RxSwift 网络处理👆
+
+* UIPickerView的使用
+* UICollectionView的使用4：样式修改
+* UICollectionView的使用3：刷新集合数据
+* UICollectionView的使用2：RxDataSources
+* UICollectionView的使用1：基本用法
+* UITableView的使用7：样式修改
+* UITableView的使用6：不同类型的单元格混用
+* UITableView的使用5：可编辑表格
+* UITableView的使用4：表格数据的搜索过滤
+* UITableView的使用3：刷新表格数据
+* UITableView的使用2：RxDataSources
+* UITableView的使用1：基本用法
+* UI控件扩展8：UIDatePicker
+* UI控件扩展7：UIGestureRecognizer
+* 双向绑定：<->
+* UI控件扩展6：UISlider、UIStepper
+* UI控件扩展5：UIActivityIndicatorView、UIApplication
+* UI控件扩展4：UISwitch、UISegmentedControl
+* UI控件扩展3：UIButton、UIBarButtonItem
+* UI控件扩展2：UITextField、UITextView
+* UI控件扩展1：UILabel
+### RxSwift UI控件扩展👆
+
+* 调度器、subscribeOn、observeOn
+* 特征序列3：ControlProperty、 ControlEvent
+* 特征序列2：Driver
+* 特征序列1：Single、Completable、Maybe
+* 调试操作
+* 错误处理
+### RxSwift 信息处理👆
+
+* 其他操作符：delay、materialize、timeout等
+* 连接操作符：connect、publish、replay、multicast
+* 算数&聚合操作符：toArray、reduce、concat
+* 结合操作符：startWith、merge、zip等
+* 条件和布尔操作符：amb、takeWhile、skipWhile等
+* 过滤操作符：filter、take、skip等
+* 变换操作符：buffer、map、flatMap、scan等
+* Subjects、Variables
+* 观察者2： 自定义可绑定属性
+* 观察者1： AnyObserver、Binder
+* Observable订阅、事件监听、订阅销毁
+* Observable介绍、创建可观察序列
+* 响应式编程与传统式编程的比较样例
+* 基本介绍、安装配置）
+### RxSwift 基础概念👆
 
 ## 🎨 测试 UI 样式
 
@@ -25,7 +87,7 @@ import ObjectMapper
 | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/6375373.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/5606319.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/82427581.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/72109350.jpg) |
 | 动态数据列表页 | RxTable 链式创建表格 | 基本绑定使用示例 | Collection使用示例 |
 
-
+## 🛠 配置
 ### 一、Observable 介绍
 
 #### Observable<T>
