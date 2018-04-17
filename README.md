@@ -29,6 +29,8 @@ import ObjectMapper
 * [unowned self] 与 [weak self]
 ### RxSwift 网络处理👆
 
+---
+
 * UIPickerView的使用
 * UICollectionView的使用：基本用法、RxDataSources、刷新集合数据、样式修改
 * UITableView的使用：基本用法、RxDataSources、刷新表格数据、表格数据的搜索过滤、可编辑表格、不同类型的单元格混用、样式修改
@@ -36,11 +38,15 @@ import ObjectMapper
 * 双向绑定：<->
 ### RxSwift UI控件扩展👆
 
+---
+
 * 调度器、subscribeOn、observeOn
 * 特征序列：Single、Completable、Maybe、Driver、ControlProperty、 ControlEvent
 * 调试操作
 * 错误处理
 ### RxSwift 信息处理👆
+
+---
 
 * 其他操作符：delay、materialize、timeout等
 * 连接操作符：connect、publish、replay、multicast
