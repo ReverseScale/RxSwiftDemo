@@ -7,11 +7,12 @@ target 'RxSwiftDemo' do
 
   pod 'RxSwift', '~> 4.0'
   pod 'RxCocoa', '~> 4.0'
-  pod 'ObjectMapper', '~> 3.1'
   pod 'RxAlamofire', '~> 4.1.0'
   pod 'RxDataSources', '~> 3.0'
   pod 'Moya', '~> 11.0'
   pod 'Moya/RxSwift', '~> 11.0'
+  
+  pod 'ObjectMapper', '~> 3.1'
 
   pod 'SnapKit', '~> 4.0'
   # Pods for RxSwiftDemo
