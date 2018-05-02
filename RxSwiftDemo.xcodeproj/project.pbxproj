@@ -38,6 +38,14 @@
 		347C1C6F20996BB70053D1F7 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C6E20996BB70053D1F7 /* GitHubModel.swift */; };
 		347C1C7120996C010053D1F7 /* GithubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C7020996C000053D1F7 /* GithubViewModel.swift */; };
 		347C1C7320996EAA0053D1F7 /* GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C7220996EAA0053D1F7 /* GitHubNetworkService.swift */; };
+		347C1C75209982960053D1F7 /* GithubDriverVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C74209982960053D1F7 /* GithubDriverVM.swift */; };
+		347C1C78209988EE0053D1F7 /* SignupNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C77209988EE0053D1F7 /* SignupNetworkService.swift */; };
+		347C1C7A2099891E0053D1F7 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C792099891E0053D1F7 /* ValidationResult.swift */; };
+		347C1C7C209989420053D1F7 /* GitHubSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C7B209989420053D1F7 /* GitHubSignupService.swift */; };
+		347C1C7E2099897A0053D1F7 /* GitHubSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C7D2099897A0053D1F7 /* GitHubSignupViewModel.swift */; };
+		347C1C80209989B70053D1F7 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C7F209989B70053D1F7 /* BindingExtensions.swift */; };
+		347C1C83209989F20053D1F7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C1C81209989F20053D1F7 /* SignupViewController.swift */; };
+		347C1C84209989F20053D1F7 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347C1C82209989F20053D1F7 /* SignupViewController.xib */; };
 		348CADA92064C3C000C1B674 /* GrammarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CADA72064C3C000C1B674 /* GrammarsViewController.swift */; };
 		348CADAA2064C3C000C1B674 /* GrammarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348CADA82064C3C000C1B674 /* GrammarsViewController.xib */; };
 		348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */; };
@@ -179,6 +187,14 @@
 		347C1C6E20996BB70053D1F7 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
 		347C1C7020996C000053D1F7 /* GithubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubViewModel.swift; sourceTree = "<group>"; };
 		347C1C7220996EAA0053D1F7 /* GitHubNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubNetworkService.swift; sourceTree = "<group>"; };
+		347C1C74209982960053D1F7 /* GithubDriverVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubDriverVM.swift; sourceTree = "<group>"; };
+		347C1C77209988EE0053D1F7 /* SignupNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupNetworkService.swift; sourceTree = "<group>"; };
+		347C1C792099891E0053D1F7 /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		347C1C7B209989420053D1F7 /* GitHubSignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupService.swift; sourceTree = "<group>"; };
+		347C1C7D2099897A0053D1F7 /* GitHubSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewModel.swift; sourceTree = "<group>"; };
+		347C1C7F209989B70053D1F7 /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
+		347C1C81209989F20053D1F7 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		347C1C82209989F20053D1F7 /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
 		348CADA72064C3C000C1B674 /* GrammarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarsViewController.swift; sourceTree = "<group>"; };
 		348CADA82064C3C000C1B674 /* GrammarsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrammarsViewController.xib; sourceTree = "<group>"; };
 		348CADAB2064D14E00C1B674 /* AddIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIndexViewController.swift; sourceTree = "<group>"; };
@@ -381,6 +397,7 @@
 				34D61B6C208448F300A3E906 /* RxAlamofire */,
 				3410520A2085C74700B54D3D /* Moya */,
 				347C1C6920996AFB0053D1F7 /* MVVM */,
+				347C1C762099889C0053D1F7 /* DriverMVVM */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				34D61B732084705400A3E906 /* LaunchScreen.storyboard */,
@@ -434,9 +451,24 @@
 				347C1C6C20996B800053D1F7 /* GitHubAPI.swift */,
 				347C1C6E20996BB70053D1F7 /* GitHubModel.swift */,
 				347C1C7020996C000053D1F7 /* GithubViewModel.swift */,
+				347C1C74209982960053D1F7 /* GithubDriverVM.swift */,
 				347C1C7220996EAA0053D1F7 /* GitHubNetworkService.swift */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		347C1C762099889C0053D1F7 /* DriverMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				347C1C81209989F20053D1F7 /* SignupViewController.swift */,
+				347C1C82209989F20053D1F7 /* SignupViewController.xib */,
+				347C1C77209988EE0053D1F7 /* SignupNetworkService.swift */,
+				347C1C792099891E0053D1F7 /* ValidationResult.swift */,
+				347C1C7F209989B70053D1F7 /* BindingExtensions.swift */,
+				347C1C7B209989420053D1F7 /* GitHubSignupService.swift */,
+				347C1C7D2099897A0053D1F7 /* GitHubSignupViewModel.swift */,
+			);
+			path = DriverMVVM;
 			sourceTree = "<group>";
 		};
 		348CADA62064B09B00C1B674 /* RxBasicGrammar */ = {
@@ -847,6 +879,7 @@
 				348F48122079AE0D008AD4D7 /* RxCustomTableViewController.xib in Resources */,
 				34D619F0207C536300A3E906 /* RxSecTableViewController.xib in Resources */,
 				348F46502071C7C9008AD4D7 /* vue.png in Resources */,
+				347C1C84209989F20053D1F7 /* SignupViewController.xib in Resources */,
 				3410520E2085C76200B54D3D /* RxAlamofireMoyaViewController.xib in Resources */,
 				348F47A7207315E4008AD4D7 /* GestureRecognizerViewController.xib in Resources */,
 				34D61B7220844BD800A3E906 /* RxAlamofireDownloadViewController.xib in Resources */,
@@ -1094,6 +1127,7 @@
 				34637D8A20689F98002AA54C /* SubjectsViewController.swift in Sources */,
 				34D4236120649D3400408E6B /* MusicListViewModel.swift in Sources */,
 				34D619EC207C4C4F00A3E906 /* RxDiffTableViewController.swift in Sources */,
+				347C1C83209989F20053D1F7 /* SignupViewController.swift in Sources */,
 				34E93D32206DDA5300A89512 /* RxCocoaUITextFileViewController.swift in Sources */,
 				34D61A982080479C00A3E906 /* RxURLSessionViewController.swift in Sources */,
 				34D61A4B207EFF5200A3E906 /* RxPickerstyleViewController.swift in Sources */,
@@ -1101,7 +1135,10 @@
 				342D08422069E219008D0F8D /* ConnectableViewController.swift in Sources */,
 				348F47AF20731831008AD4D7 /* TimeDatePickerViewController.swift in Sources */,
 				348F479C20731314008AD4D7 /* RxOperatorViewController.swift in Sources */,
+				347C1C7E2099897A0053D1F7 /* GitHubSignupViewModel.swift in Sources */,
+				347C1C7C209989420053D1F7 /* GitHubSignupService.swift in Sources */,
 				3410520D2085C76200B54D3D /* RxAlamofireMoyaViewController.swift in Sources */,
+				347C1C78209988EE0053D1F7 /* SignupNetworkService.swift in Sources */,
 				345131D420883C1A001D186E /* Single+ObjectMapper.swift in Sources */,
 				348F47A2207314FC008AD4D7 /* Operators.swift in Sources */,
 				348F47A6207315E4008AD4D7 /* GestureRecognizerViewController.swift in Sources */,
@@ -1110,7 +1147,9 @@
 				34D4236320649EA600408E6B /* RootTableViewController.swift in Sources */,
 				34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */,
 				348F47C3207468F0008AD4D7 /* RxTableViewController.swift in Sources */,
+				347C1C7A2099891E0053D1F7 /* ValidationResult.swift in Sources */,
 				348F48112079AE0D008AD4D7 /* RxCustomTableViewController.swift in Sources */,
+				347C1C75209982960053D1F7 /* GithubDriverVM.swift in Sources */,
 				34D423722064A96900408E6B /* FutureTableViewController.swift in Sources */,
 				34D423652064A11600408E6B /* IntroductionModuleTableCell.swift in Sources */,
 				345131D220883C0A001D186E /* ObservableType+ObjectMapper.swift in Sources */,
@@ -1124,6 +1163,7 @@
 				34D619A3207AFE9800A3E906 /* RxEditTableViewController.swift in Sources */,
 				347C1C7320996EAA0053D1F7 /* GitHubNetworkService.swift in Sources */,
 				34D61A93208041C900A3E906 /* RxSwiftARCDemoViewController.swift in Sources */,
+				347C1C80209989B70053D1F7 /* BindingExtensions.swift in Sources */,
 				34D4235720649BC900408E6B /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -106,7 +106,7 @@ class GithubViewModel {
         //生成导航栏标题序列（如果查询到结果则返回数量，如果是清空数据则返回默认标题）
         self.navigationTitle = Observable.of(
             searchResult.map{ "共有 \($0.totalCount!) 个结果" },
-            cleanResult.map{"hangge.com"})
+            cleanResult.map{"请输入搜索内容"})
             .merge()
     }
 }

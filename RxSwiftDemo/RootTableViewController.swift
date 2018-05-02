@@ -31,9 +31,25 @@ class RootTableViewController: UIViewController {
 
     func createData() {
         arrayList = [
-            ["Music 列表演示",
-             "RxMusic 列表演示"],
-            ["RxSwift 基本语法"],
+            ["RxMVVM",
+             "RxDriverMVVM",
+             ],
+            ["RxSwiftARCAbout",
+             "RxURLSession",
+             "RxURLSessionHandel",
+             "RxSessionTable",
+             "RxSessionModel",
+             ],
+            ["RxAlamofire",
+             "RxAlamofireUpload",
+             "RxAlamofireDownload",
+             ],
+            ["RxAlamofireMoya",
+             "RxAlamofireMoyaHandle",
+             ],
+            ["Music List",
+             "RxMusic List"],
+            ["RxSwift used"],
             ["RxSwift Bind",
              "Bing Attributes"],
             ["Subjects"],
@@ -58,7 +74,6 @@ class RootTableViewController: UIViewController {
              "RxDataTableView",
              "RxSearchTableView",
              "RxEditTableView",
-//             "RxDiffTableView",
              "RxSecTableView",
             ],
             ["RxCollectionView",
@@ -68,21 +83,6 @@ class RootTableViewController: UIViewController {
             ],
             ["RxPickerView",
              "RxPickerstyleView",
-            ],
-            ["RxSwiftARCAbout",
-             "RxURLSession",
-             "RxURLSessionHandel",
-             "RxSessionTable",
-             "RxSessionModel",
-            ],
-            ["RxAlamofire",
-             "RxAlamofireUpload",
-             "RxAlamofireDownload",
-            ],
-            ["RxAlamofireMoya",
-             "RxAlamofireMoyaHandle",
-            ],
-            ["RxMVVM",
             ],
         ]
         titleDic = [
@@ -132,6 +132,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofireMoya":"结合 Moya 演示",
             "RxAlamofireMoyaHandle":"Moya 处理",
             "RxMVVM":"MVVM 层级",
+            "RxDriverMVVM":"Driver 的 MVVM",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -180,6 +181,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofireMoya":"",
             "RxAlamofireMoyaHandle":"",
             "RxMVVM":"",
+            "RxDriverMVVM":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -229,6 +231,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofireMoya":"RxAlamofireMoyaViewController",
             "RxAlamofireMoyaHandle":"RxAlamofireMoyaHandleViewController",
             "RxMVVM":"RxMVVMViewController",
+            "RxDriverMVVM":"SignupViewController",
         ]
     }
     
