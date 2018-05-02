@@ -82,6 +82,8 @@ class RootTableViewController: UIViewController {
             ["RxAlamofireMoya",
              "RxAlamofireMoyaHandle",
             ],
+            ["RxMVVM",
+            ],
         ]
         titleDic = [
             "Music 列表演示":"传统实现方式",
@@ -129,6 +131,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofireDownload":"RxAlamofire 下载",
             "RxAlamofireMoya":"结合 Moya 演示",
             "RxAlamofireMoyaHandle":"Moya 处理",
+            "RxMVVM":"MVVM 层级",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -176,6 +179,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofireDownload":"",
             "RxAlamofireMoya":"",
             "RxAlamofireMoyaHandle":"",
+            "RxMVVM":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -224,6 +228,7 @@ class RootTableViewController: UIViewController {
             "RxAlamofireDownload":"RxAlamofireDownloadViewController",
             "RxAlamofireMoya":"RxAlamofireMoyaViewController",
             "RxAlamofireMoyaHandle":"RxAlamofireMoyaHandleViewController",
+            "RxMVVM":"RxMVVMViewController",
         ]
     }
     
