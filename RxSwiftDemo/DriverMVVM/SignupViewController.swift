@@ -23,6 +23,8 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var repeatedPasswordOutlet: UITextField!
     @IBOutlet weak var repeatedPasswordValidationOutlet: UILabel!
     
+    //注册时的活动指示器
+    @IBOutlet weak var signInActivityIndicator: UIActivityIndicatorView!
     //注册按钮
     @IBOutlet weak var signupOutlet: UIButton!
     
@@ -66,6 +68,16 @@ class SignupViewController: UIViewController {
                 self?.signupOutlet.isEnabled = valid
                 self?.signupOutlet.alpha = valid ? 1.0 : 0.3
             })
+            .disposed(by: disposeBag)
+        
+        //当前是否正在注册
+        viewModel.signingIn
+            .drive(UIApplication.shared.rx.isNetworkActivityIndicatorVisible)
+            .disposed(by: disposeBag)
+        
+        //当前是否正在注册
+        viewModel.signingIn
+            .drive(signInActivityIndicator.rx.isAnimating)
             .disposed(by: disposeBag)
         
         //注册结果绑定

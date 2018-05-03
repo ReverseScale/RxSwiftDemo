@@ -23,6 +23,9 @@ class GitHubSignupViewModel {
     //注册按钮是否可用
     let signupEnabled: Driver<Bool>
     
+    //正在注册中
+    let signingIn: Driver<Bool>
+    
     //注册结果
     let signupResult: Driver<Bool>
     
@@ -72,11 +75,16 @@ class GitHubSignupViewModel {
         let usernameAndPassword = Driver.combineLatest(input.username, input.password) {
             (username: $0, password: $1) }
         
+        //用于检测是否正在请求数据
+        let activityIndicator = ActivityIndicator()
+        self.signingIn = activityIndicator.asDriver()
+        
         //注册按钮点击结果
         signupResult = input.loginTaps.withLatestFrom(usernameAndPassword)
             .flatMapLatest { pair in
                 return dependency.networkService.signup(pair.username,
                                                         password: pair.password)
+                    .trackActivity(activityIndicator) //把当前序列放入signing序列中进行检测
                     .asDriver(onErrorJustReturn: false)
         }
     }

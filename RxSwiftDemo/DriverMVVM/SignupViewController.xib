@@ -16,6 +16,7 @@
                 <outlet property="passwordValidationOutlet" destination="ZyF-Vh-cbL" id="ZnQ-V4-hrA"/>
                 <outlet property="repeatedPasswordOutlet" destination="rmx-XU-J1v" id="LBT-Z6-tzy"/>
                 <outlet property="repeatedPasswordValidationOutlet" destination="jrB-y5-Z8h" id="VAs-ev-NLX"/>
+                <outlet property="signInActivityIndicator" destination="nFE-Kx-ZFS" id="R4Q-uw-Uy6"/>
                 <outlet property="signupOutlet" destination="3ZX-9a-n6S" id="fzd-9m-HRU"/>
                 <outlet property="usernameOutlet" destination="7m0-Yb-N5v" id="2iP-cC-aQw"/>
                 <outlet property="usernameValidationOutlet" destination="FTe-FY-PzS" id="qOX-mt-Ju3"/>
@@ -71,10 +72,14 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZX-9a-n6S">
                     <rect key="frame" x="0.0" y="502" width="375" height="45"/>
+                    <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="nN6-sn-NDg"/>
                     </constraints>
-                    <state key="normal" title="注册"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="注册">
+                        <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZyF-Vh-cbL">
                     <rect key="frame" x="166" y="272.5" width="42" height="21"/>
@@ -82,6 +87,13 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="nFE-Kx-ZFS">
+                    <rect key="frame" x="130" y="514" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="6np-XJ-Jey"/>
+                        <constraint firstAttribute="width" constant="20" id="ER4-A0-h1b"/>
+                    </constraints>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -95,10 +107,12 @@
                 <constraint firstItem="ZyF-Vh-cbL" firstAttribute="top" secondItem="7m0-Yb-N5v" secondAttribute="bottom" constant="30" id="O6Y-iZ-VY2"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="3ZX-9a-n6S" secondAttribute="bottom" constant="120" id="PaY-Ml-l4t"/>
                 <constraint firstItem="OOp-aN-RIB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PiO-tG-fCR"/>
+                <constraint firstItem="3ZX-9a-n6S" firstAttribute="top" secondItem="nFE-Kx-ZFS" secondAttribute="bottom" constant="-32" id="QS2-Nb-1bc"/>
                 <constraint firstItem="7m0-Yb-N5v" firstAttribute="top" secondItem="FTe-FY-PzS" secondAttribute="bottom" constant="25" id="Tk5-Ci-ZLL"/>
                 <constraint firstItem="FTe-FY-PzS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aFq-QI-W4T"/>
                 <constraint firstItem="ZyF-Vh-cbL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="m11-pf-JFw"/>
                 <constraint firstItem="7m0-Yb-N5v" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mpU-lI-vFN"/>
+                <constraint firstItem="nFE-Kx-ZFS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="130" id="nvc-pt-Zo7"/>
                 <constraint firstItem="rmx-XU-J1v" firstAttribute="top" secondItem="jrB-y5-Z8h" secondAttribute="bottom" constant="25" id="rrk-gG-ihh"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

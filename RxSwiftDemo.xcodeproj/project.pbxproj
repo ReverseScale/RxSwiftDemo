@@ -112,6 +112,7 @@
 		34D61B7220844BD800A3E906 /* RxAlamofireDownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B7020844BD800A3E906 /* RxAlamofireDownloadViewController.xib */; };
 		34D61B752084705500A3E906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B732084705400A3E906 /* LaunchScreen.storyboard */; };
 		34D61B762084705500A3E906 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D61B742084705500A3E906 /* Default.png */; };
+		34DADED8209AAAC500AF6246 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DADED7209AAAC400AF6246 /* ActivityIndicator.swift */; };
 		34DFD9912068A447003FEC90 /* TransformingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFD98F2068A446003FEC90 /* TransformingViewController.swift */; };
 		34DFD9922068A447003FEC90 /* TransformingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DFD9902068A447003FEC90 /* TransformingViewController.xib */; };
 		34E93CD4206C815F00A89512 /* RxCocoaTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */; };
@@ -261,6 +262,7 @@
 		34D61B7020844BD800A3E906 /* RxAlamofireDownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxAlamofireDownloadViewController.xib; sourceTree = "<group>"; };
 		34D61B732084705400A3E906 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D61B742084705500A3E906 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		34DADED7209AAAC400AF6246 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		34DFD98F2068A446003FEC90 /* TransformingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingViewController.swift; sourceTree = "<group>"; };
 		34DFD9902068A447003FEC90 /* TransformingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformingViewController.xib; sourceTree = "<group>"; };
 		34E93CD2206C815F00A89512 /* RxCocoaTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTraitsViewController.swift; sourceTree = "<group>"; };
@@ -460,6 +462,7 @@
 		347C1C762099889C0053D1F7 /* DriverMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				34DADED7209AAAC400AF6246 /* ActivityIndicator.swift */,
 				347C1C81209989F20053D1F7 /* SignupViewController.swift */,
 				347C1C82209989F20053D1F7 /* SignupViewController.xib */,
 				347C1C77209988EE0053D1F7 /* SignupNetworkService.swift */,
@@ -1107,6 +1110,7 @@
 				34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */,
 				348F47AB20731727008AD4D7 /* DatePickerViewController.swift in Sources */,
 				342D083D2069E052008D0F8D /* MathematicalAggregateViewController.swift in Sources */,
+				34DADED8209AAAC500AF6246 /* ActivityIndicator.swift in Sources */,
 				34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */,
 				34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */,
 				34D61B662080B07500A3E906 /* RxAlamofireViewController.swift in Sources */,
