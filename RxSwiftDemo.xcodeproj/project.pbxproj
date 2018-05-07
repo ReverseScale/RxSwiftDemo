@@ -18,6 +18,10 @@
 		342D083E2069E052008D0F8D /* MathematicalAggregateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342D083C2069E052008D0F8D /* MathematicalAggregateViewController.xib */; };
 		342D08422069E219008D0F8D /* ConnectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D08402069E219008D0F8D /* ConnectableViewController.swift */; };
 		342D08432069E219008D0F8D /* ConnectableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342D08412069E219008D0F8D /* ConnectableViewController.xib */; };
+		342DD94F209FFFBC001613E7 /* MJRefresh+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DD94D209FFFBC001613E7 /* MJRefresh+Rx.swift */; };
+		342DD950209FFFBC001613E7 /* MJRefreshNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DD94E209FFFBC001613E7 /* MJRefreshNetworkService.swift */; };
+		342DD952209FFFE7001613E7 /* MJRefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DD951209FFFE7001613E7 /* MJRefreshViewModel.swift */; };
+		342DD95420A00020001613E7 /* RefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DD95320A00020001613E7 /* RefreshController.swift */; };
 		343D89092064985400F96807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D89082064985400F96807 /* AppDelegate.swift */; };
 		343D890E2064985400F96807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343D890C2064985400F96807 /* Main.storyboard */; };
 		343D89102064985400F96807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343D890F2064985400F96807 /* Assets.xcassets */; };
@@ -162,6 +166,11 @@
 		342D083C2069E052008D0F8D /* MathematicalAggregateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MathematicalAggregateViewController.xib; sourceTree = "<group>"; };
 		342D08402069E219008D0F8D /* ConnectableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectableViewController.swift; sourceTree = "<group>"; };
 		342D08412069E219008D0F8D /* ConnectableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectableViewController.xib; sourceTree = "<group>"; };
+		342DD94D209FFFBC001613E7 /* MJRefresh+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MJRefresh+Rx.swift"; sourceTree = "<group>"; };
+		342DD94E209FFFBC001613E7 /* MJRefreshNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefreshNetworkService.swift; sourceTree = "<group>"; };
+		342DD951209FFFE7001613E7 /* MJRefreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshViewModel.swift; sourceTree = "<group>"; };
+		342DD95320A00020001613E7 /* RefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshController.swift; sourceTree = "<group>"; };
+		342DD95520A00080001613E7 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D89052064985400F96807 /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		343D89082064985400F96807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		343D890D2064985400F96807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -318,6 +327,7 @@
 		0D57021C8BCA47D498BBF40A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				342DD95520A00080001613E7 /* MJRefresh.framework */,
 				458B80CFE547400AEA505736 /* Pods_RxSwiftDemo.framework */,
 				23B7F636CA5E26B7B8CA98BE /* Pods_RxSwiftDemoTests.framework */,
 				A4B32DEEC4FB45025BE32894 /* Pods_RxSwiftDemoUITests.framework */,
@@ -346,6 +356,17 @@
 				342D08412069E219008D0F8D /* ConnectableViewController.xib */,
 			);
 			path = RxConnectable;
+			sourceTree = "<group>";
+		};
+		342DD94C209FFFBC001613E7 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				342DD94D209FFFBC001613E7 /* MJRefresh+Rx.swift */,
+				342DD94E209FFFBC001613E7 /* MJRefreshNetworkService.swift */,
+				342DD951209FFFE7001613E7 /* MJRefreshViewModel.swift */,
+				342DD95320A00020001613E7 /* RefreshController.swift */,
+			);
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
 		343D88FC2064985400F96807 = {
@@ -400,6 +421,7 @@
 				3410520A2085C74700B54D3D /* Moya */,
 				347C1C6920996AFB0053D1F7 /* MVVM */,
 				347C1C762099889C0053D1F7 /* DriverMVVM */,
+				342DD94C209FFFBC001613E7 /* MJRefresh */,
 				343D890C2064985400F96807 /* Main.storyboard */,
 				343D890F2064985400F96807 /* Assets.xcassets */,
 				34D61B732084705400A3E906 /* LaunchScreen.storyboard */,
@@ -924,6 +946,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -937,6 +960,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
@@ -1098,6 +1122,7 @@
 				348F46492071C2DD008AD4D7 /* ActivityIndicatorViewController.swift in Sources */,
 				34D61B6A208448DB00A3E906 /* RxAlamofireUploadViewController.swift in Sources */,
 				34D61B5D2080A7F800A3E906 /* RxObjectMapperError.swift in Sources */,
+				342DD94F209FFFBC001613E7 /* MJRefresh+Rx.swift in Sources */,
 				34F8EC12206B33F8007E048B /* DebugViewController.swift in Sources */,
 				34D61B5B2080A68800A3E906 /* RxSessionTableViewController.swift in Sources */,
 				348CADAD2064D14E00C1B674 /* AddIndexViewController.swift in Sources */,
@@ -1107,9 +1132,12 @@
 				34E93D3E206DE3DC00A89512 /* RxCocoaUIButtonViewController.swift in Sources */,
 				347C1C6F20996BB70053D1F7 /* GitHubModel.swift in Sources */,
 				34435F0C20689B0400321F75 /* BingAttributesViewController.swift in Sources */,
+				342DD950209FFFBC001613E7 /* MJRefreshNetworkService.swift in Sources */,
 				34D4235E20649D0600408E6B /* PastTableViewController.swift in Sources */,
 				348F47AB20731727008AD4D7 /* DatePickerViewController.swift in Sources */,
+				342DD952209FFFE7001613E7 /* MJRefreshViewModel.swift in Sources */,
 				342D083D2069E052008D0F8D /* MathematicalAggregateViewController.swift in Sources */,
+				342DD95420A00020001613E7 /* RefreshController.swift in Sources */,
 				34DADED8209AAAC500AF6246 /* ActivityIndicator.swift in Sources */,
 				34D619EF207C536300A3E906 /* RxSecTableViewController.swift in Sources */,
 				34D619F4207C557A00A3E906 /* RxCollectionViewController.swift in Sources */,

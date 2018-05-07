@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.7.1)
   - Differentiator (3.0.2)
+  - MJRefresh (3.1.15.3)
   - Moya (11.0.2):
     - Moya/Core (= 11.0.2)
   - Moya/Core (11.0.2):
@@ -30,6 +31,7 @@ PODS:
   - SnapKit (4.0.0)
 
 DEPENDENCIES:
+  - MJRefresh (~> 3.1.15.3)
   - Moya (~> 11.0)
   - Moya/RxSwift (~> 11.0)
   - ObjectMapper (~> 3.1)
@@ -44,6 +46,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
@@ -55,6 +58,6 @@ SPEC CHECKSUMS:
   RxTest: e634f15fd2c2cd0e0120132ef7a4f7be69ad0393
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 1185924d5a323feb285a6f4bdd8f3fdce52cf435
+PODFILE CHECKSUM: d188aad68635bc37cc518663070bdff44ad34c95
 
 COCOAPODS: 1.4.0
