@@ -34,7 +34,10 @@ class RootTableViewController: UIViewController {
             ["RxMVVM",
              "RxDriverMVVM",
              ],
+            ["RxDelegate",
+             ],
             ["Refresh",
+             "RefreshAndUpdate",
              ],
             ["RxSwiftARCAbout",
              "RxURLSession",
@@ -136,6 +139,8 @@ class RootTableViewController: UIViewController {
             "RxMVVM":"MVVM 层级",
             "RxDriverMVVM":"Driver 的 MVVM",
             "Refresh":"MJRefresh 绑定使用",
+            "RefreshAndUpdate":"Refresh 加载刷新使用",
+            "RxDelegate":"链式代理",
         ]
         picDic = [
             "Music 列表演示":"",
@@ -186,6 +191,8 @@ class RootTableViewController: UIViewController {
             "RxMVVM":"",
             "RxDriverMVVM":"",
             "Refresh":"",
+            "RefreshAndUpdate":"",
+            "RxDelegate":"",
         ]
         naviControl = [
             "Music 列表演示":"PastTableViewController",
@@ -237,6 +244,8 @@ class RootTableViewController: UIViewController {
             "RxMVVM":"RxMVVMViewController",
             "RxDriverMVVM":"SignupViewController",
             "Refresh":"RefreshController",
+            "RefreshAndUpdate":"RefreshAndUpdateViewController",
+            "RxDelegate":"RxDelegateViewController",
         ]
     }
     
