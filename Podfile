@@ -5,15 +5,15 @@ target 'RxSwiftDemo' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'RxSwift', '~> 4.0'
-  pod 'RxCocoa', '~> 4.0'
-  pod 'RxAlamofire', '~> 4.1.0'
-  pod 'RxDataSources', '~> 3.0'
-  pod 'Moya', '~> 11.0'
-  pod 'Moya/RxSwift', '~> 11.0'
-  pod 'ObjectMapper', '~> 3.1'
-  pod 'SnapKit', '~> 4.0'
-  pod 'MJRefresh', '~> 3.1.15.3'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxAlamofire'
+  pod 'RxDataSources'
+  pod 'Moya'
+  pod 'Moya/RxSwift'
+  pod 'ObjectMapper'
+  pod 'SnapKit'
+  pod 'MJRefresh'
   # Pods for RxSwiftDemo
 
   target 'RxSwiftDemoTests' do
