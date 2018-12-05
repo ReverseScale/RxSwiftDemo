@@ -66,7 +66,7 @@ import ObjectMapper
 
 |1.列表页 |2.RxTable页 |3.基本语法页 |4.Collection页 |
 | ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/6375373.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/5606319.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/82427581.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-4-16/72109350.jpg) |
+| ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-12-5/34129457.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-12-5/31020169.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-12-5/39075095.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-12-5/38316827.jpg) |
 | 动态数据列表页 | RxTable 链式创建表格 | 基本绑定使用示例 | Collection使用示例 |
 
 ## 🛠 配置
